@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "1.API_Juegos/1.0.0": {
+        "runtime": {
+          "1.API_Juegos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "1.API_Juegos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
