@@ -1,0 +1,7 @@
+# 12 Meses 12 Programas
+
+#### Este repositorio capturara el progreso de un estudiante de Ingenieria Informatica apasinado con el aprendizaje constantes, este repositorio y reto abaracaran las habilidades que poco a poco se desarrollaran, tomando en cuenta que no solo se trabaja con un solo lenguaje o framework. 
+
+#### Se quiere con este reto ir aumentando el nivel a los proyectos para que cada mes sean mas complicados y llevar a retos para mi persona y desarrollar mis habilidades.
+
+#### Este proyecto estara mas orientado al tema del backend ya que lo considero como mi punto mas fuerte y es mi desarrollo, pero tambien tomaremos el tema del fronted para desarrollarlo de la misma manera que el backend.
