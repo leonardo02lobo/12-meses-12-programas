@@ -17,3 +17,4 @@
   * HTML
   * CSS
   * Base de datos (MySQL)
+  * ORM (Entity Framework)
