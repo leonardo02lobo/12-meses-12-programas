@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\1.API_Juegos\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\1.API_Juegos\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
