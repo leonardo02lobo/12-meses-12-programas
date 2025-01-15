@@ -1,0 +1,27 @@
+﻿@model API_JUEGOS.Models.Game
+@{
+	ViewData["Title"] = "Details";
+}
+<div class="container">
+	<h1 class="m-4">Details Game</h1>
+	<a asp-action="Index" asp-controller="Home">back to List</a>
+	<hr />
+	<table class="table text-center">
+		<thead>
+			<tr>
+				<th>Nombre del Juego</th>
+				<th>Categoria del Juego</th>
+				<th>Año de lanzamiento del Juego</th>
+				<th>Precio del Juego</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>@Html.DisplayFor(m => Model.NombreJuego)</td>
+				<td>@Html.DisplayFor(m => Model.CategoriaJuego)</td>
+				<td>@Html.DisplayFor(m => Model.AnioLanzamiento)</td>
+				<td>@Html.DisplayFor(m => Model.PrecioLanzamiento)</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

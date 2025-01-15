@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "API_JUEGOS.Controllers.ApiGameController",
+    "Method": "Get",
+    "RelativePath": "api/ApiGame",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API_JUEGOS.Models.Game, API_JUEGOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
