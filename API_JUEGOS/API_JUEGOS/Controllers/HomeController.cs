@@ -20,9 +20,15 @@ namespace API_JUEGOS.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(String buscar)
         {
-            return View(_context.Games.ToList());
+            var Game = from usuario in _context.Games select usuario;
+
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                Game = Game.Where(s => s.NombreJuego == buscar);
+            }
+            return View(Game.ToList());
         }
 
         public IActionResult Create()

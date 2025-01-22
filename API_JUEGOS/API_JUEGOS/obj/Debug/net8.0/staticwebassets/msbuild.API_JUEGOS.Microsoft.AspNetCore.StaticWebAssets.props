@@ -1,22 +1,22 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\API_JUEGOS.c92aluz29c.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\API_JUEGOS.zgv7zgsswl.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>API_JUEGOS</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/API_JUEGOS</BasePath>
-      <RelativePath>API_JUEGOS.c92aluz29c.bundle.scp.css</RelativePath>
+      <RelativePath>API_JUEGOS.zgv7zgsswl.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>c92aluz29c</Fingerprint>
-      <Integrity>ELlKASedrarCuUs7VVeJuczg8pUo2tBOKgGx197xeaY=</Integrity>
+      <Fingerprint>zgv7zgsswl</Fingerprint>
+      <Integrity>E55Zn5MtsyRqHTnf8DFjelITUnSVGHP/s4O+vs/WhUo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\API_JUEGOS.c92aluz29c.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\API_JUEGOS.zgv7zgsswl.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))">
       <SourceType>Package</SourceType>

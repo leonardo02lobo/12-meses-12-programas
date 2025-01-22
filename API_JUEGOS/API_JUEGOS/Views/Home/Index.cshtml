@@ -3,42 +3,36 @@
     ViewData["Title"] = "API_JUEGO";
 }
 
-<h1>Game</h1>
-<a asp-controller="Home" asp-action="Create" class="btn btn-primary">Create</a>
+<div class="container mt-5">
+    <h1>Game</h1>
+    <a asp-controller="Home" asp-action="Create" class="btn btn-primary mt-3 mb-3">Create</a>
 
-<p>Ingresa los juegos para que luego puedas visualizarlo en nuestra <a href="https://localhost:7068/api/ApiGame">API</a></p>
-<table class="table text-center">
-	<thead>
-		<tr>
-			<th>Nombre del Juego</th>
-			<th>Categoria del Juego</th>
-			<th>Año de lanzamiento del Juego</th>
-			<th>Precio del Juego</th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		@foreach (var game in Model)
-		{
-			<tr>
-				<td>
-					@Html.DisplayFor(mbox => game.NombreJuego)
-				</td>
-				<td>
-					@Html.DisplayFor(mbox => game.CategoriaJuego)
-				</td>
-				<td>
-					@Html.DisplayFor(mbox => game.AnioLanzamiento)
-				</td>
-				<td>
-					@Html.DisplayFor(mbox => game.PrecioLanzamiento)
-				</td>
-				<td>
-					<a asp-controller="Home" asp-action="Edit" asp-route-id="@game.Id">Editar</a>|
-					<a asp-controller="Home" asp-action="Details" asp-route-id="@game.Id">Mirar</a>|
-					<a asp-controller="Home" asp-action="Delete" asp-route-id="@game.Id">Eliminar</a>
-				</td>
-			</tr>
-		}
-	</tbody>
-</table>
+    <p>Ingresa los juegos para que luego puedas visualizarlo en nuestra <a href="https://localhost:7068/api/ApiGame" target="_blank">API</a></p>
+    <form asp-action="Index" asp-controller="Home">
+        <p>
+            Buscar: <input type="text" name="buscar" placeholder="Buscar..." class="form-text"/>
+            <input type="submit" class="btn btn-primary btn-dark"/>
+            <input type="submit" class="btn btn-primary btn-dark" value="Lista Completa" />
+        </p>
+    </form>
+
+        @foreach (var game in Model) 
+ 	    { 
+            <div class="card" style="width: 100%;">
+                <div class="tarjeta">
+			        <img src="@game.UrlImage" class="card-img-top" alt="..." style="width: 25%;">
+			        <div class="card-body">
+                        <a class="card-text h1" asp-controller="Home" asp-action="Details" asp-route-id="@game.Id">@game.NombreJuego</a>
+				        <p class="card-text">@game.CategoriaJuego</p>
+                        <p class="card-text">@game.AnioLanzamiento</p>
+                        <p class="card-text">@game.PrecioLanzamiento $</p>
+			        </div>
+                    <div class="opciones">
+                        <a asp-controller="Home" asp-action="Edit" asp-route-id="@game.Id"><img width="50" height="50" src="https://img.icons8.com/sf-black/64/edit.png" alt="edit" /></a>
+                        <a asp-controller="Home" asp-action="Details" asp-route-id="@game.Id"><img width="50" height="50" src="https://img.icons8.com/ios/50/view-delivery.png" alt="view-delivery" /></a>
+                        <a asp-controller="Home" asp-action="Delete" asp-route-id="@game.Id"><img width="50" height="50" src="https://img.icons8.com/ios/50/delete--v1.png" alt="delete--v1" /></a>
+                    </div>
+                </div>
+            </div>
+ 	    } 
+</div>

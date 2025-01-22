@@ -1,0 +1,12 @@
+.tarjeta[b-sbiolvtbj4] {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    gap: 30px;
+}
+
+.linea[b-sbiolvtbj4]{
+    outline: 2px solid black;
+    width: 10%;
+    margin-left: 1.5%;
+}

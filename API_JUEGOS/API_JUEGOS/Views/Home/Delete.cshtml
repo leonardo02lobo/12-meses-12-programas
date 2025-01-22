@@ -31,6 +31,14 @@
 					<label class="control-label">: @Html.DisplayFor(m => m.PrecioLanzamiento)</label>
 				</div>
 				<div class="form-group m-2">
+					<label asp-for="Descripcion" class="control-label"></label>
+					<label class="control-label">: @Html.DisplayFor(m => m.Descripcion)</label>
+				</div>
+				<div class="form-group m-2">
+					<label asp-for="UrlImage" class="control-label"></label>
+					<label class="control-label">: @Html.DisplayFor(m => m.UrlImage)</label>
+				</div>
+				<div class="form-group m-2">
 					<input type="submit" value="Eliminar" class="btn btn-danger" />
 					<a asp-action="Index" asp-controller="Home" class="btn btn-primary">Volver</a>
 				</div>

@@ -1,3 +1,31 @@
+/* _content/API_JUEGOS/Views/Home/Details.cshtml.rz.scp.css */
+.tarjeta[b-sbiolvtbj4] {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    gap: 30px;
+}
+
+.linea[b-sbiolvtbj4]{
+    outline: 2px solid black;
+    width: 10%;
+    margin-left: 1.5%;
+}
+/* _content/API_JUEGOS/Views/Home/Index.cshtml.rz.scp.css */
+.tarjeta[b-nsuzdvjsls]{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    gap: 30px;
+}
+
+.opciones[b-nsuzdvjsls]{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+}
 /* _content/API_JUEGOS/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

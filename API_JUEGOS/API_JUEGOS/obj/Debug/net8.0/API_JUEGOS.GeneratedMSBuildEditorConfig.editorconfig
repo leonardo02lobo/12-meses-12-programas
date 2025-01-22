@@ -36,16 +36,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/Home/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -59,6 +51,14 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-sbiolvtbj4
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-nsuzdvjsls
 
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/API_JUEGOS/API_JUEGOS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

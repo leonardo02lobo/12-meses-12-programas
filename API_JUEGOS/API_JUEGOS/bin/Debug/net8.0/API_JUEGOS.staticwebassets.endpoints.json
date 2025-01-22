@@ -3,51 +3,6 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "API_JUEGOS.c92aluz29c.styles.css",
-      "AssetFile": "API_JUEGOS.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ELlKASedrarCuUs7VVeJuczg8pUo2tBOKgGx197xeaY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 08 Jan 2025 17:39:40 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c92aluz29c"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ELlKASedrarCuUs7VVeJuczg8pUo2tBOKgGx197xeaY="
-        },
-        {
-          "Name": "label",
-          "Value": "API_JUEGOS.styles.css"
-        }
-      ]
-    },
-    {
       "Route": "API_JUEGOS.styles.css",
       "AssetFile": "API_JUEGOS.styles.css",
       "Selectors": [],
@@ -62,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1128"
+          "Value": "1704"
         },
         {
           "Name": "Content-Type",
@@ -70,17 +25,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ELlKASedrarCuUs7VVeJuczg8pUo2tBOKgGx197xeaY=\""
+          "Value": "\"E55Zn5MtsyRqHTnf8DFjelITUnSVGHP/s4O+vs/WhUo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Jan 2025 17:39:40 GMT"
+          "Value": "Sun, 19 Jan 2025 00:25:57 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ELlKASedrarCuUs7VVeJuczg8pUo2tBOKgGx197xeaY="
+          "Value": "sha256-E55Zn5MtsyRqHTnf8DFjelITUnSVGHP/s4O+vs/WhUo="
+        }
+      ]
+    },
+    {
+      "Route": "API_JUEGOS.zgv7zgsswl.styles.css",
+      "AssetFile": "API_JUEGOS.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E55Zn5MtsyRqHTnf8DFjelITUnSVGHP/s4O+vs/WhUo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 00:25:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zgv7zgsswl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E55Zn5MtsyRqHTnf8DFjelITUnSVGHP/s4O+vs/WhUo="
+        },
+        {
+          "Name": "label",
+          "Value": "API_JUEGOS.styles.css"
         }
       ]
     },
