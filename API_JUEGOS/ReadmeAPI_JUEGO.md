@@ -47,3 +47,7 @@
 [![Screenshot-2025-01-21-234239.png](https://i.postimg.cc/br9nr2Hb/Screenshot-2025-01-21-234239.png)](https://postimg.cc/vxDTSTKH)
 
 #### En este apartado se refleja que luego de darle al boton eliminar se elimina el juego
+
+## Funcionamiento de la APIs
+
+[![Screenshot-2025-01-21-235940.png](https://i.postimg.cc/TPFcCGKH/Screenshot-2025-01-21-235940.png)](https://postimg.cc/rdGWwBCS)
