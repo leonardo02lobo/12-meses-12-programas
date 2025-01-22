@@ -1,0 +1,14 @@
+.tarjeta[b-nsuzdvjsls]{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+    gap: 30px;
+}
+
+.opciones[b-nsuzdvjsls]{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+}
