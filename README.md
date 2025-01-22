@@ -16,5 +16,6 @@
   * ASP.NET
   * HTML
   * CSS
-  * Base de datos (MySQL)
+  * Bootstrap
+  * Base de datos (SQLServer)
   * ORM (Entity Framework)
