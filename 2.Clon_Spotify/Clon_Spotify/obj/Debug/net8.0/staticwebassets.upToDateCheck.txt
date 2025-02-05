@@ -1,1 +1,5 @@
+wwwroot\Css\Contenido.css
+wwwroot\Css\Navegacion.css
+wwwroot\Css\style.css
 wwwroot\favicon.ico
+wwwroot\spotify.ico

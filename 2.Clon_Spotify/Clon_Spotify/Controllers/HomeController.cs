@@ -9,5 +9,9 @@ namespace Clon_Spotify.Controllers
         {
             return View();
         }
+        public IActionResult Listado()
+        {
+            return View();
+        }
     }
 }

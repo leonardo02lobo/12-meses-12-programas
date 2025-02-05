@@ -3,9 +3,106 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2.Clon_Spotify</title>
+    <title>@ViewBag.Title</title>
+    <link href="~/Css/style.css" rel="stylesheet" asp-append-version="true"/>
+	<link href="~/Css/Navegacion.css" rel="stylesheet" asp-append-version="true" />
+	<link href="~/Css/Contenido.css" rel="stylesheet" asp-append-version="true" />
+	<link rel="icon" href="~/spotify.ico" type="image/x-icon"/>
 </head>
 <body>
-    @RenderBody()
+    <header>
+		<nav>
+			<div>
+				<a asp-controller="Home" asp-action="Index">
+					<component type="typeof(Logo)" render-mode="ServerPrerendered"/>
+				</a>
+			</div>
+			<div class="busqueda">
+				<a class="circulo" asp-controller="Home" asp-action="Index">
+					<component type="typeof(Home)" render-mode="ServerPrerendered"/>
+				</a>
+				<div class="buscador">
+					<div class="lupa">
+						<component type="typeof(Lupa)" render-mode="ServerPrerendered" />
+					</div>
+					<div class="barra-busqueda">
+						<input type="text" placeholder="What do you want to play?" />
+						<span>
+							<kbd>Ctrl</kbd>
+							<kbd>K</kbd>
+						</span>
+					</div>
+					<a class="biblioteca" asp-action="Listado" asp-controller="Home">
+						<component type="typeof(Biblioteca)" render-mode="ServerPrerendered" />
+					</a>
+				</div>
+			</div>
+			<div class="Datos-Usuario">
+				<button class="btn-premium"><strong>Explore Premium</strong></button>
+				<a class="circulo">
+					<component type="typeof(Notificaciones)" render-mode="ServerPrerendered" />
+				</a>
+				<a class="circulo">
+				</a>
+			</div>
+		</nav>
+
+    </header>
+    <section class="container">
+		<div class="play-list contenido">
+			<header class="header-playlist">
+				<div>
+					<a class="library">
+						<component type="typeof(Library)" render-mode="ServerPrerendered" />
+						<span class="your-library">
+							Your Library
+						</span>
+					</a>
+				</div>
+				<div>
+					<button class="btn-opciones">
+						<span class="icono">
+							<component type="typeof(Mas)" render-mode="ServerPrerendered"/>
+						</span>
+					</button>
+					<button class="btn-opciones">
+						<span class="icono">
+							<component type="typeof(Flecha)" render-mode="ServerPrerendered"/>
+						</span>
+					</button>
+				</div>
+			</header>
+			<main>
+				<section class="botones">
+					<button class="btn-listado">
+						Playlists
+					</button>
+					<button class="btn-listado">
+						Artists
+					</button>
+					<button class="btn-listado">
+						Albums
+					</button>
+				</section>
+				<section class="buscador-contenido">
+					<p class="circulo-hover">
+						<component type="typeof(Lupa)" render-mode="ServerPrerendered"/>
+					</p>
+					<p class="recent">
+						<span>Recent</span>
+						<span>
+							<component type="typeof(Filtrar)" render-mode="ServerPrerendered"/>
+						</span>
+					</p>
+				</section>
+				<section class="music">
+					<component type="typeof(BuscadorPlayList)" render-mode="ServerPrerendered" />
+				</section>
+			</main>
+		</div>
+		<div class="container">
+			@RenderBody()
+		</div>
+    </section>
 </body>
 </html>

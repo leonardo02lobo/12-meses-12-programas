@@ -1,8 +1,24 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Contenido.css",
+      "PackagePath": "staticwebassets\\Css\\Contenido.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Navegacion.css",
+      "PackagePath": "staticwebassets\\Css\\Navegacion.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\style.css",
+      "PackagePath": "staticwebassets\\Css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\spotify.ico",
+      "PackagePath": "staticwebassets\\spotify.ico"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Clon_Spotify.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

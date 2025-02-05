@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj": {}
+    "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\1.API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj": {
+    "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\1.API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj",
+        "projectUniqueName": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\1.API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj",
         "projectName": "API_JUEGOS",
-        "projectPath": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj",
+        "projectPath": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\1.API_JUEGOS\\API_JUEGOS\\API_JUEGOS.csproj",
         "packagesPath": "C:\\Users\\equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\API_JUEGOS\\API_JUEGOS\\obj\\",
+        "outputPath": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\1.API_JUEGOS\\API_JUEGOS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

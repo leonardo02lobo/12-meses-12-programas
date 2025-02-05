@@ -1,0 +1,161 @@
+﻿.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contenido {
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(18,18,18);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.play-list {
+    width: 20%;
+}
+
+.header-playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header-playlist > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-playlist > div > button {
+    display: flex;
+    background-color: rgb(18,18,18);
+    color: rgb(179,179,179);
+    border: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.your-library {
+    font-size: 20px;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: .5s all;
+}
+.btn-opciones{
+    margin: 10px;
+}
+
+.library:hover{
+    color: white;
+}
+
+.icono:hover {
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: rgb(40,40,40);
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-listado {
+    background-color: rgb(42,42,42);
+    color: rgb(237,237,237);
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-listado:hover{
+    background-color: rgb(52,52,52);
+    cursor: pointer;
+}
+
+.music {
+    overflow: hidden;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: .5s all;
+}
+
+.tarjeta:hover{
+    background-color: rgb(42,42,42);
+    cursor: pointer;
+}
+
+.tarjeta > .contenido-tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 5px;
+}
+.contenido-tarjeta > span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}
+.buscador-contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.circulo-hover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    transition: .5s all;
+}
+.circulo-hover:hover {
+    background-color: rgb(31,31,31);
+}
+.buscador-contenido > .recent {
+    color: rgb(179,179,179);
+    padding: 10px;
+    box-sizing: border-box;
+}
+    .buscador-contenido > .recent > span {
+        font-size: 20px;
+    }
+
+    .buscador-contenido > .recent:hover {
+        color: white;
+        cursor: pointer;
+    }
