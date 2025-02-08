@@ -1,5 +1,6 @@
 wwwroot\Css\Contenido.css
+wwwroot\Css\Index.css
 wwwroot\Css\Navegacion.css
 wwwroot\Css\style.css
-wwwroot\favicon.ico
+wwwroot\Js\carrucel.js
 wwwroot\spotify.ico

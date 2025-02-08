@@ -24,8 +24,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xCdXNjYWRvclBsYXlMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/AddDispositivo.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcQWRkRGlzcG9zaXRpdm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/AtrasSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcQXRyYXNTb25pZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/Biblioteca.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcQmlibGlvdGVjYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/ColaSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcQ29sYVNvbmlkby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/DelanteSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcRGVsYW50ZVNvbmlkby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/Filtrar.razor]
@@ -34,6 +50,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/Flecha.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcRmxlY2hhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/FlechaDerechaPlayList.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcRmxlY2hhRGVyZWNoYVBsYXlMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/FlechaIzquierdaPlayList.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcRmxlY2hhSXpxdWllcmRhUGxheUxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/FullSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcRnVsbFNvbmlkby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/Home.razor]
@@ -52,12 +80,56 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcTHVwYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/LyricsSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcTHlyaWNzU29uaWRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/Mas.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcTWFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/MiniVentanaSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcTWluaVZlbnRhbmFTb25pZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/MixSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcTWl4U29uaWRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/Notificaciones.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcTm90aWZpY2FjaW9uZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/ParlanteMuteSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcUGFybGFudGVNdXRlU29uaWRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/ParlanteSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcUGFybGFudGVTb25pZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/PlayListas.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcUGxheUxpc3Rhcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/PlaySonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcUGxheVNvbmlkby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/RepetirSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcUmVwZXRpclNvbmlkby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/Iconos/VistaCancionSonido.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xJY29ub3NcVmlzdGFDYW5jaW9uU29uaWRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/TarjetaMasEscuchada.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xUYXJqZXRhTWFzRXNjdWNoYWRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Components/TarjetaPlayList.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xUYXJqZXRhUGxheUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/equipo/Documents/Lenguajes de Programacion/12 meses 12 programas/2.Clon_Spotify/Clon_Spotify/Views/Home/Index.cshtml]

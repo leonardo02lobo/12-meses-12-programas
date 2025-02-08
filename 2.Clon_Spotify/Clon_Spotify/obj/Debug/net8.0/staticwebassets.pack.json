@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Css\\Contenido.css"
     },
     {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Index.css",
+      "PackagePath": "staticwebassets\\Css\\Index.css"
+    },
+    {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Navegacion.css",
       "PackagePath": "staticwebassets\\Css\\Navegacion.css"
     },
@@ -13,8 +17,8 @@
       "PackagePath": "staticwebassets\\Css\\style.css"
     },
     {
-      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\carrucel.js",
+      "PackagePath": "staticwebassets\\Js\\carrucel.js"
     },
     {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\spotify.ico",

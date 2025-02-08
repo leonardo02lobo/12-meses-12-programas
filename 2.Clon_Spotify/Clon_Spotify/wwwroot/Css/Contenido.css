@@ -6,7 +6,7 @@
 
 .contenido {
     width: 80%;
-    height: 100vh;
+    height: auto;
     background-color: rgb(18,18,18);
     border-radius: 30px;
     box-sizing: border-box;

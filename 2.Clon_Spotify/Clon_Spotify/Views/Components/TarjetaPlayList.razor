@@ -1,0 +1,18 @@
+﻿@using Clon_Spotify.Views.Components.Iconos
+
+<div class="tarjeta tarjeta-carrucel">
+	<img src="@urlImage" alt="PlayList" />
+	<span>
+		<a href="#">@description</a>
+	</span>
+	<div class="btn-playList">
+		<PlayListas/>
+	</div>
+</div>
+
+@code{
+	[Parameter]
+	public string urlImage { get; set; }
+	[Parameter]
+	public string description { get; set; }
+}
