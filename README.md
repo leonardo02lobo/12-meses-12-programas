@@ -27,9 +27,11 @@
 
 #### Se trabajo con HTML, CSS y Javascript para el Fronted, javascript se utilizo generalmente para darle interacciones a la pagina, tambien para la interaccion se tomo el tema de componentes razor para una mejor reutilizacion de codigo.
 
-#### La manera que se uso CSS fue sin ningun Framework, ya que se quiso practicar el uso de CSS puro a aprender sobre buenas practicas y la reutilizacion de clases
+#### La manera que se uso CSS fue sin ningun Framework, ya que se quiso practicar el uso de CSS puro a aprender sobre buenas practicas y la reutilizacion de clases.
 
-#### Para la base de datos se utilizo SQL Server ya que es la base de datos que mejor se integra con Entity Framework
+#### Para la base de datos se utilizo SQL Server ya que es la base de datos que mejor se integra con Entity Framework.
+
+#### El uso de los datos se realizo consumiendo la API de spotify por medio de python y medio de los identificadores de los artistas y las playList ir recopilando los datos necesarios.
 
 * Lenguajes trabajados en Spotify_Clon
   * .NET
