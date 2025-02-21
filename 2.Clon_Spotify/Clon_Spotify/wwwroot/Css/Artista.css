@@ -1,0 +1,39 @@
+﻿.CabeceraPerfil {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.contenido {
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.CabeceraPerfil > div {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 70px 20px;
+    gap: 20px;
+    background: linear-gradient(rgb(82,28,21),rgb(41,14,10));
+    width: 100%;
+    height: auto;
+}
+
+.CabeceraPerfil > div > div {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.CabeceraPerfil > div > div > h1 {
+    font-size: 300%;
+}
+
+.CabeceraPerfil > div > div > span {
+    font-size: 12px;
+}
+
+.CabeceraPerfil > div > div > img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

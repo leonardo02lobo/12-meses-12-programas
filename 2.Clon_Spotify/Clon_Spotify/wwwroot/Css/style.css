@@ -1,11 +1,15 @@
-﻿*{
+﻿* {
     margin: 0px;
     padding: 0px;
-    font-family: Arial;
+    font-family: sans-serif;
     font-size: 30px;
 }
 
 body {
     background-color: black;
     color: white;
+}
+
+svg {
+    cursor:pointer;
 }

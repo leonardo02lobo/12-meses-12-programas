@@ -1,10 +1,28 @@
-﻿nav {
+﻿.logo {
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    width: 25%;
+}
+
+.botonesBusqueda {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px;
+    align-items: center;
+    width: 75%;
+}
+
+header {
+    padding: 8px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
     box-sizing: border-box;
-    margin-right: 0px;
 }
 
 .busqueda {
@@ -40,13 +58,20 @@
     margin: 10px;
 }
 
+.input {
+    outline: none;
+    border: none;
+}
+
 .barra-busqueda {
-    width: 30vw;
+    width: 25vw;
 }
 
 .barra-busqueda > input {
     border: none;
     background-color: rgb(31,31,31);
+    color: white;
+    font-size: 20px;
 }
 
 .barra-busqueda > span > kbd {
@@ -94,4 +119,52 @@
 
 .btn-premium:hover {
     width: 220px;
+}
+
+.gruposBotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.crearCuenta, .inicarSesion {
+    text-decoration: none;
+    color: rgb(139,139,139);
+    font-size: 20px;
+    font: bold;
+    transition: .3s ease all;
+}
+
+.inicarSesion {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.crearCuenta:hover {
+    font-size: 22px;
+}
+
+@media (max-width: 900px) {
+    nav {
+        width: 100%;
+        justify-content: normal;
+        align-items: center;
+    }
+
+    .barra-busqueda {
+        width: 10vw;
+        overflow: hidden;
+    }
+
+    .barra-busqueda > span {
+        display: none;
+    }
+    .btn-premium {
+        display: none;
+    }
 }

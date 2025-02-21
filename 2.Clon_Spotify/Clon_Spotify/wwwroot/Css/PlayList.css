@@ -1,0 +1,142 @@
+﻿main {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.VistaPlayList {
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    box-sizing: border-box;
+    background-color: rgb(96, 93, 93);
+    min-height: 350px;
+}
+
+.VistaPlayList > img {
+    width: 200px;
+    height: 200px;
+}
+
+.datos {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.datos > p, .datos > p > * {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.datos > p {
+    justify-content: start;
+}
+
+.datos > p > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.datos > h1 {
+    font-size: 60px;
+}
+
+.datos > p > a > img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.datos > p > a:hover{
+    text-decoration: revert;
+}
+
+.navegacion-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tipo-listado > p {
+    font-size: 20px;
+}
+
+
+table {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+table > tbody,
+table > thead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+table > tbody {
+    flex-direction: column;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+table > thead > tr > *,
+table > tbody > tr > *{
+    font-size: 15px;
+    text-align: start;
+}
+
+table > tbody > tr > td {
+    font-size: 20px;
+}
+
+table > tbody > tr > .musica {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+table > tbody > tr > .musica > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+table > tbody > tr > .musica > a:hover {
+    cursor: pointer;
+    text-decoration: revert;
+}
+
+.cancion {
+    transition: .3s all;
+}
+
+.cancion:hover {
+    background-color: rgb(51,51,51);
+}

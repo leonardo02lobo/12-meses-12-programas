@@ -1,0 +1,35 @@
+﻿@{
+	Usuario artista = ViewBag.Artista;
+	Artistum datosArtista = ViewBag.DatosExtra;
+	ViewBag.Title = $"{artista.NombreUsuario} | Spotify_Clon";
+}
+@model List<Album>
+
+<div class="CabeceraPerfil">
+	<div>
+		<div>
+			<img src="@artista.FotoPerfil" alt="@artista.NombreUsuario" />
+		</div>
+		<div>
+			<component type="typeof(Verificado)" render-mode="ServerPrerendered" />
+			<h1>@artista.NombreUsuario</h1>
+			<span>@datosArtista.OyentesMensuales Oyentes Mensuales</span>
+		</div>
+	</div>
+</div>
+<section class="carrucel-tarjeta">
+	<h1>Discography</h1>
+	<section class="carrucel-tarjeta">
+		<div class="div-grande" id="divGrande">
+			@foreach(Album album in Model){
+				<a asp-action="PlayList" asp-controller="VistasParciales" class="link-playList" asp-route-nombreAlbum="@album.AlbumMusica">
+					<component type="typeof(TarjetaPlayList)" render-mode="ServerPrerendered" param-description="@album.AlbumMusica" param-urlImage="@album.UrlImage" />
+				</a>
+			}
+		</div>
+		<ul>
+			<li id="li1" class="flechaizquierda"><component type="typeof(FlechaIzquierdaPlayList)" render-mode="ServerPrerendered" /></li>
+			<li id="li2" class="flechaderecha"><component type="typeof(FlechaDerechaPlayList)" render-mode="ServerPrerendered" /></li>
+		</ul>
+	</section>
+</section>

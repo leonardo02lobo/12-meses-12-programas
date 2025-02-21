@@ -1,6 +1,13 @@
 ﻿<div class="tarjeta-masEscuchada">
-	<img src="https://cdn-images.dzcdn.net/images/cover/3db1fbf7ebe1df851c3e837863e8af04/0x1900-000000-80-0-0.jpg" alt="Portada" />
+	<img src="@urlImage" alt="Portada" />
 	<span>
-		Titulo
+		@titulo
 	</span>
 </div>
+
+@code{
+	[Parameter]
+	public string? titulo { get; set; } = null;
+	[Parameter]
+	public string? urlImage { get; set; } = null;
+}

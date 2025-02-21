@@ -1,0 +1,16 @@
+﻿@model List<Album>
+@{
+	string texto = ViewBag.Texto;
+	ViewBag.Title = ViewBag.Texto;
+}
+
+<h1 style="margin: 30px;">@texto</h1>
+
+<div class="Escuchados-Recientes">
+	@foreach (var album in Model)
+	{
+		<a asp-action="PlayList" asp-controller="VistasParciales" class="link-playList" asp-route-nombreAlbum="@album.AlbumMusica">
+			<component type="typeof(TarjetaPlayList)" render-mode="ServerPrerendered" param-urlImage="@album.UrlImage" param-description="@album.AlbumMusica" />
+		</a>
+	}
+</div>

@@ -1,6 +1,14 @@
+wwwroot\Css\Artista.css
 wwwroot\Css\Contenido.css
+wwwroot\Css\EstructuraResgitraseYSesion.css
 wwwroot\Css\Index.css
 wwwroot\Css\Navegacion.css
+wwwroot\Css\PlayList.css
+wwwroot\Css\RecuperarContrasenia.css
 wwwroot\Css\style.css
+wwwroot\Js\BarraSonido.js
+wwwroot\Js\BotonesIndex.js
 wwwroot\Js\carrucel.js
+wwwroot\Js\CrearCuenta.js
+wwwroot\Js\IniciarSesion.js
 wwwroot\spotify.ico

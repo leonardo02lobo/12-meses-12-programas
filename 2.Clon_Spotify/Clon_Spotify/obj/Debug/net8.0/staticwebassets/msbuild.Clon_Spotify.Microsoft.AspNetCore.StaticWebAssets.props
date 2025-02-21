@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Artista.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Css/Artista.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4df8jj507u</Fingerprint>
+      <Integrity>OJE+TAEdf72GVqAJNqB+gI6JlyF+ZyDjuFZL5IFiwX0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Artista.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Contenido.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Clon_Spotify</SourceId>
@@ -12,11 +30,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>znheof7h4q</Fingerprint>
-      <Integrity>EUsnjz9ZoD2oJl80CdsweJ4gZsyJAf0vqNr5V+E2dQA=</Integrity>
+      <Fingerprint>zt4qy21vnt</Fingerprint>
+      <Integrity>9xSDcpbAaXFMVkj1S7olIIfD4FixTMnTI8SFnIipVxI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Contenido.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\EstructuraResgitraseYSesion.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Css/EstructuraResgitraseYSesion.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jt0hgnr311</Fingerprint>
+      <Integrity>Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\EstructuraResgitraseYSesion.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Index.css'))">
       <SourceType>Package</SourceType>
@@ -30,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iu0wqe2t1q</Fingerprint>
-      <Integrity>Sn46vB6hD4Q7/ut/i7q+CcZN1Hx6QOYaH+xQpixiySU=</Integrity>
+      <Fingerprint>hk7sr32jfa</Fingerprint>
+      <Integrity>ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Index.css'))</OriginalItemSpec>
@@ -48,11 +84,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5zaumo7rwb</Fingerprint>
-      <Integrity>7wZhTohgpoaUmVAt1GZhVj0ryc5lxh/N0YzbhATNOBM=</Integrity>
+      <Fingerprint>v5w3xapj1k</Fingerprint>
+      <Integrity>bcG8hsk5sF753+LrP1snKmnhxeDxjEkUgf/B1UPJfFE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Navegacion.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\PlayList.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Css/PlayList.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gp8w17pg9n</Fingerprint>
+      <Integrity>FKH8kkXWcFcvvSK4MBZyOP5/CSf73fJhzE5zDkkupAU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\PlayList.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\RecuperarContrasenia.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Css/RecuperarContrasenia.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yx4gpubshe</Fingerprint>
+      <Integrity>+uG2CLcX3bORyxKixwiYXS78fUXLQl93Lh1lieEKd7o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\RecuperarContrasenia.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\style.css'))">
       <SourceType>Package</SourceType>
@@ -66,11 +138,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qn41tsy96x</Fingerprint>
-      <Integrity>1lqszVJHfYRmJEfiRJv7NT5QB97WOnPECLXbVbauhos=</Integrity>
+      <Fingerprint>f4wvtcu1b5</Fingerprint>
+      <Integrity>oT4RuP4hEanHk+dFgLgdp2kLkg0N4gVjV7Hi6d154k8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\style.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\BarraSonido.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Js/BarraSonido.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ic89h1an8g</Fingerprint>
+      <Integrity>gkfr9nWxuVxk8TmaNpj9Qgd7l1TLiCnpL2TcDSGKgEE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\BarraSonido.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\BotonesIndex.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Js/BotonesIndex.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>537261z37o</Fingerprint>
+      <Integrity>nxU58uqM+1rao23CPYkLdiDF2QhjgRA/CN9YrOZOXmc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\BotonesIndex.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\carrucel.js'))">
       <SourceType>Package</SourceType>
@@ -84,11 +192,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zubcgsslow</Fingerprint>
-      <Integrity>C8dVDCUa2K521kYcXXusF3kT+iFB0HLn0MVEgZF4aG0=</Integrity>
+      <Fingerprint>ecmhr9oi2x</Fingerprint>
+      <Integrity>orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\carrucel.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\CrearCuenta.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Js/CrearCuenta.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e0rplpuy91</Fingerprint>
+      <Integrity>AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\CrearCuenta.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\IniciarSesion.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Clon_Spotify</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Clon_Spotify</BasePath>
+      <RelativePath>Js/IniciarSesion.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e356w1z5cx</Fingerprint>
+      <Integrity>tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\IniciarSesion.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\spotify.ico'))">
       <SourceType>Package</SourceType>

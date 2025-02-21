@@ -1,0 +1,34 @@
+﻿@{
+	Layout = "";
+	ViewBag.Title = "Restablecer Contraseña";
+}
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>@ViewBag.Title</title>
+		<link rel="stylesheet" href="~/Css/EstructuraResgitraseYSesion.css" asp-append-version="true" />
+		<link rel="stylesheet" href="~/Css/RecuperarContrasenia.css" asp-append-version="true" />
+		<link rel="icon" href="~/spotify.ico" type="image/x-icon" />
+	</head>
+    <body>
+		<div class="container">
+			<component type="typeof(Logo)" render-mode="ServerPrerendered"/>
+			<div class="recuperar">
+				<h3>Restablecer su contraseña</h3>
+				<p>
+					Ingresa la dirección de correo electrónico o el nombre de usuario vinculado a tu cuenta de Spotify y te enviaremos un correo electrónico.
+				</p>
+			</div>
+			<form>
+				<label>
+					Correo electrónico o nombre de usuario
+					<input type="text" placeholder="Correo electrónico o nombre de usuario" />
+				</label>
+				<a href="https://support.spotify.com/ve-es/article/reset-password/" target="_blank">¿Necesitas ayuda?</a>
+				<button class="proximo">Enviar Enlace</button>
+			</form>
+		</div>
+	</body>
+</html>

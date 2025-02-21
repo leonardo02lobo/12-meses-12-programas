@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Artista.css",
+      "PackagePath": "staticwebassets\\Css\\Artista.css"
+    },
+    {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Contenido.css",
       "PackagePath": "staticwebassets\\Css\\Contenido.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\EstructuraResgitraseYSesion.css",
+      "PackagePath": "staticwebassets\\Css\\EstructuraResgitraseYSesion.css"
     },
     {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Index.css",
@@ -13,8 +21,32 @@
       "PackagePath": "staticwebassets\\Css\\Navegacion.css"
     },
     {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\PlayList.css",
+      "PackagePath": "staticwebassets\\Css\\PlayList.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\RecuperarContrasenia.css",
+      "PackagePath": "staticwebassets\\Css\\RecuperarContrasenia.css"
+    },
+    {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\style.css",
       "PackagePath": "staticwebassets\\Css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BarraSonido.js",
+      "PackagePath": "staticwebassets\\Js\\BarraSonido.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BotonesIndex.js",
+      "PackagePath": "staticwebassets\\Js\\BotonesIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
+      "PackagePath": "staticwebassets\\Js\\CrearCuenta.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\IniciarSesion.js",
+      "PackagePath": "staticwebassets\\Js\\IniciarSesion.js"
     },
     {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\carrucel.js",

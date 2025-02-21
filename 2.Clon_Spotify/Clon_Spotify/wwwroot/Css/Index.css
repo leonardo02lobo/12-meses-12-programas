@@ -1,12 +1,14 @@
 ﻿.index {
     padding: 20px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: auto;
 }
 
 .main > * {
@@ -18,7 +20,7 @@
 
 .Escuchados-Recientes {
     display: grid;
-    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-columns: 250px 250px 250px 250px;
     grid-gap: 20px;
     justify-content:center;
 }
@@ -30,7 +32,7 @@
     align-items: center;
     width: 100%;
     height: 70px;
-    background-color: rgb(90,90,90);
+    background-color: rgb(49,62,73);
     gap: 10px;
 }
 
@@ -39,7 +41,7 @@
     height: 70px;
 }
 .tarjeta-masEscuchada > span{
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .playlist-reciente > div {
@@ -47,6 +49,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .carrucel-tarjeta {
@@ -67,6 +70,7 @@
     width: 200%;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     transition: transform 0.5s ease;
     transform: translateX(0%);
 }
@@ -89,9 +93,10 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    width: 100%;
     height: 300px;
+    width: 230px;
     background-color: transparent;
+    gap: 10px;
 }
 
 .tarjeta-carrucel:hover .btn-playList {
@@ -105,13 +110,13 @@
     height: 200px;
 }
 
-.tarjeta-carrucel > span > a, .playlist-reciente > div > a {
+.tarjeta-carrucel > span, .playlist-reciente > div > * {
     font-size: 20px;
     text-decoration: none; 
     color: white;
 }
 
-.tarjeta-carrucel > span > a:hover {
+.tarjeta-carrucel > span:hover {
     text-decoration: revert;
 }
 
@@ -122,5 +127,69 @@
     align-items: center;
     position: absolute;
     top: 2%;
-    transition: .3s all;
+}
+
+.link-playList {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .Escuchados-Recientes {
+        grid-template-columns: 130px 130px;
+        justify-content: start;
+    }
+
+    .tarjeta-masEscuchada {
+        height: auto;
+    }
+    .tarjeta-masEscuchada > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .tarjeta-masEscuchada > span {
+        font-size: 10px;
+    }
+
+    .playlist-reciente > div > a {
+        font-size: 10px;
+    }
+
+    .playlist-reciente > div > a > h3 {
+        font-size: 20px;
+    }
+
+    .tarjeta-carrucel > img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tarjeta-carrucel > span > a {
+        font-size: 12px;
+    }
+
+    .tarjeta-carrucel {
+        height: 140px;
+    }
+
+    .carrucel-tarjeta > ul {
+        display:none;
+    }
+
+    .tarjeta-carrucel:hover .btn-playList {
+        display: flex;
+        position: relative;
+        top: -50%;
+        right: 10%;
+    }
+
+    .playlist-reciente > div {
+        justify-content: normal;
+        gap: 100px;
+    }
+
+    .carrucel-tarjeta:hover ul {
+        display: none;
+    }
 }

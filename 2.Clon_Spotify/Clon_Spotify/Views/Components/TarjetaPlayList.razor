@@ -1,9 +1,11 @@
 ﻿@using Clon_Spotify.Views.Components.Iconos
+@using Microsoft.AspNetCore.Components.Routing
 
 <div class="tarjeta tarjeta-carrucel">
 	<img src="@urlImage" alt="PlayList" />
 	<span>
-		<a href="#">@description</a>
+		@description
+		@artista
 	</span>
 	<div class="btn-playList">
 		<PlayListas/>
@@ -12,7 +14,8 @@
 
 @code{
 	[Parameter]
-	public string urlImage { get; set; }
+	public string? urlImage { get; set; }
 	[Parameter]
-	public string description { get; set; }
+	public string? description { get; set; }
+	public string? artista { get; set; }
 }

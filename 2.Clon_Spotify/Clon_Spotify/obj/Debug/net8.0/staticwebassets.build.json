@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4Gw1hEoK5vjZcereH2Z/V8jUDg2etiSfDUrwhfjjTUE=",
+  "Hash": "gUT9MHORCQyN25joCyfx9wAyILvfWdd7ZfRoarGgUjM=",
   "Source": "Clon_Spotify",
   "BasePath": "_content/Clon_Spotify",
   "Mode": "Default",
@@ -17,6 +17,27 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Artista.css",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Css/Artista#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4df8jj507u",
+      "Integrity": "OJE+TAEdf72GVqAJNqB+gI6JlyF+ZyDjuFZL5IFiwX0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\Artista.css"
+    },
+    {
       "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Contenido.css",
       "SourceId": "Clon_Spotify",
       "SourceType": "Discovered",
@@ -31,11 +52,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "znheof7h4q",
-      "Integrity": "EUsnjz9ZoD2oJl80CdsweJ4gZsyJAf0vqNr5V+E2dQA=",
+      "Fingerprint": "zt4qy21vnt",
+      "Integrity": "9xSDcpbAaXFMVkj1S7olIIfD4FixTMnTI8SFnIipVxI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\Contenido.css"
+    },
+    {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\EstructuraResgitraseYSesion.css",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Css/EstructuraResgitraseYSesion#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jt0hgnr311",
+      "Integrity": "Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\EstructuraResgitraseYSesion.css"
     },
     {
       "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Index.css",
@@ -52,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "iu0wqe2t1q",
-      "Integrity": "Sn46vB6hD4Q7/ut/i7q+CcZN1Hx6QOYaH+xQpixiySU=",
+      "Fingerprint": "hk7sr32jfa",
+      "Integrity": "ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\Index.css"
@@ -73,11 +115,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5zaumo7rwb",
-      "Integrity": "7wZhTohgpoaUmVAt1GZhVj0ryc5lxh/N0YzbhATNOBM=",
+      "Fingerprint": "v5w3xapj1k",
+      "Integrity": "bcG8hsk5sF753+LrP1snKmnhxeDxjEkUgf/B1UPJfFE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\Navegacion.css"
+    },
+    {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\PlayList.css",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Css/PlayList#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gp8w17pg9n",
+      "Integrity": "FKH8kkXWcFcvvSK4MBZyOP5/CSf73fJhzE5zDkkupAU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\PlayList.css"
+    },
+    {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\RecuperarContrasenia.css",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Css/RecuperarContrasenia#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yx4gpubshe",
+      "Integrity": "+uG2CLcX3bORyxKixwiYXS78fUXLQl93Lh1lieEKd7o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\RecuperarContrasenia.css"
     },
     {
       "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\style.css",
@@ -94,11 +178,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qn41tsy96x",
-      "Integrity": "1lqszVJHfYRmJEfiRJv7NT5QB97WOnPECLXbVbauhos=",
+      "Fingerprint": "f4wvtcu1b5",
+      "Integrity": "oT4RuP4hEanHk+dFgLgdp2kLkg0N4gVjV7Hi6d154k8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BarraSonido.js",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Js/BarraSonido#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ic89h1an8g",
+      "Integrity": "gkfr9nWxuVxk8TmaNpj9Qgd7l1TLiCnpL2TcDSGKgEE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\BarraSonido.js"
+    },
+    {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BotonesIndex.js",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Js/BotonesIndex#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "537261z37o",
+      "Integrity": "nxU58uqM+1rao23CPYkLdiDF2QhjgRA/CN9YrOZOXmc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\BotonesIndex.js"
     },
     {
       "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\carrucel.js",
@@ -115,11 +241,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zubcgsslow",
-      "Integrity": "C8dVDCUa2K521kYcXXusF3kT+iFB0HLn0MVEgZF4aG0=",
+      "Fingerprint": "ecmhr9oi2x",
+      "Integrity": "orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Js\\carrucel.js"
+    },
+    {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Js/CrearCuenta#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e0rplpuy91",
+      "Integrity": "AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\CrearCuenta.js"
+    },
+    {
+      "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\IniciarSesion.js",
+      "SourceId": "Clon_Spotify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\",
+      "BasePath": "_content/Clon_Spotify",
+      "RelativePath": "Js/IniciarSesion#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e356w1z5cx",
+      "Integrity": "tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Js\\IniciarSesion.js"
     },
     {
       "Identity": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\spotify.ico",
@@ -145,6 +313,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "Css/Artista.4df8jj507u.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Artista.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJE+TAEdf72GVqAJNqB+gI6JlyF+ZyDjuFZL5IFiwX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 17:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4df8jj507u"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Artista.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJE+TAEdf72GVqAJNqB+gI6JlyF+ZyDjuFZL5IFiwX0="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Artista.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Artista.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJE+TAEdf72GVqAJNqB+gI6JlyF+ZyDjuFZL5IFiwX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 17:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJE+TAEdf72GVqAJNqB+gI6JlyF+ZyDjuFZL5IFiwX0="
+        }
+      ]
+    },
+    {
       "Route": "Css/Contenido.css",
       "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Contenido.css",
       "Selectors": [],
@@ -155,7 +405,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3024"
+          "Value": "5562"
         },
         {
           "Name": "Content-Type",
@@ -163,11 +413,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EUsnjz9ZoD2oJl80CdsweJ4gZsyJAf0vqNr5V+E2dQA=\""
+          "Value": "\"9xSDcpbAaXFMVkj1S7olIIfD4FixTMnTI8SFnIipVxI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 18:46:42 GMT"
+          "Value": "Wed, 12 Feb 2025 01:35:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -177,12 +427,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EUsnjz9ZoD2oJl80CdsweJ4gZsyJAf0vqNr5V+E2dQA="
+          "Value": "sha256-9xSDcpbAaXFMVkj1S7olIIfD4FixTMnTI8SFnIipVxI="
         }
       ]
     },
     {
-      "Route": "Css/Contenido.znheof7h4q.css",
+      "Route": "Css/Contenido.zt4qy21vnt.css",
       "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Contenido.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -192,7 +442,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3024"
+          "Value": "5562"
         },
         {
           "Name": "Content-Type",
@@ -200,11 +450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EUsnjz9ZoD2oJl80CdsweJ4gZsyJAf0vqNr5V+E2dQA=\""
+          "Value": "\"9xSDcpbAaXFMVkj1S7olIIfD4FixTMnTI8SFnIipVxI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 18:46:42 GMT"
+          "Value": "Wed, 12 Feb 2025 01:35:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -214,7 +464,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "znheof7h4q"
+          "Value": "zt4qy21vnt"
         },
         {
           "Name": "label",
@@ -222,7 +472,89 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EUsnjz9ZoD2oJl80CdsweJ4gZsyJAf0vqNr5V+E2dQA="
+          "Value": "sha256-9xSDcpbAaXFMVkj1S7olIIfD4FixTMnTI8SFnIipVxI="
+        }
+      ]
+    },
+    {
+      "Route": "Css/EstructuraResgitraseYSesion.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\EstructuraResgitraseYSesion.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 02:18:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU="
+        }
+      ]
+    },
+    {
+      "Route": "Css/EstructuraResgitraseYSesion.jt0hgnr311.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\EstructuraResgitraseYSesion.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 02:18:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jt0hgnr311"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/EstructuraResgitraseYSesion.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU="
         }
       ]
     },
@@ -237,7 +569,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2032"
+          "Value": "3554"
         },
         {
           "Name": "Content-Type",
@@ -245,11 +577,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sn46vB6hD4Q7/ut/i7q+CcZN1Hx6QOYaH+xQpixiySU=\""
+          "Value": "\"ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 18:48:41 GMT"
+          "Value": "Mon, 17 Feb 2025 00:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -259,12 +591,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Sn46vB6hD4Q7/ut/i7q+CcZN1Hx6QOYaH+xQpixiySU="
+          "Value": "sha256-ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI="
         }
       ]
     },
     {
-      "Route": "Css/Index.iu0wqe2t1q.css",
+      "Route": "Css/Index.hk7sr32jfa.css",
       "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -274,7 +606,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2032"
+          "Value": "3554"
         },
         {
           "Name": "Content-Type",
@@ -282,11 +614,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sn46vB6hD4Q7/ut/i7q+CcZN1Hx6QOYaH+xQpixiySU=\""
+          "Value": "\"ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 18:48:41 GMT"
+          "Value": "Mon, 17 Feb 2025 00:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -296,7 +628,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iu0wqe2t1q"
+          "Value": "hk7sr32jfa"
         },
         {
           "Name": "label",
@@ -304,52 +636,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sn46vB6hD4Q7/ut/i7q+CcZN1Hx6QOYaH+xQpixiySU="
-        }
-      ]
-    },
-    {
-      "Route": "Css/Navegacion.5zaumo7rwb.css",
-      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Navegacion.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1750"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7wZhTohgpoaUmVAt1GZhVj0ryc5lxh/N0YzbhATNOBM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 02:13:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5zaumo7rwb"
-        },
-        {
-          "Name": "label",
-          "Value": "Css/Navegacion.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7wZhTohgpoaUmVAt1GZhVj0ryc5lxh/N0YzbhATNOBM="
+          "Value": "sha256-ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI="
         }
       ]
     },
@@ -364,7 +651,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "2928"
         },
         {
           "Name": "Content-Type",
@@ -372,11 +659,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7wZhTohgpoaUmVAt1GZhVj0ryc5lxh/N0YzbhATNOBM=\""
+          "Value": "\"bcG8hsk5sF753+LrP1snKmnhxeDxjEkUgf/B1UPJfFE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 02:13:14 GMT"
+          "Value": "Sun, 16 Feb 2025 03:52:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -386,7 +673,216 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7wZhTohgpoaUmVAt1GZhVj0ryc5lxh/N0YzbhATNOBM="
+          "Value": "sha256-bcG8hsk5sF753+LrP1snKmnhxeDxjEkUgf/B1UPJfFE="
+        }
+      ]
+    },
+    {
+      "Route": "Css/Navegacion.v5w3xapj1k.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Navegacion.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2928"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bcG8hsk5sF753+LrP1snKmnhxeDxjEkUgf/B1UPJfFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 03:52:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v5w3xapj1k"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/Navegacion.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bcG8hsk5sF753+LrP1snKmnhxeDxjEkUgf/B1UPJfFE="
+        }
+      ]
+    },
+    {
+      "Route": "Css/PlayList.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\PlayList.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKH8kkXWcFcvvSK4MBZyOP5/CSf73fJhzE5zDkkupAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 17:59:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FKH8kkXWcFcvvSK4MBZyOP5/CSf73fJhzE5zDkkupAU="
+        }
+      ]
+    },
+    {
+      "Route": "Css/PlayList.gp8w17pg9n.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\PlayList.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKH8kkXWcFcvvSK4MBZyOP5/CSf73fJhzE5zDkkupAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 17:59:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gp8w17pg9n"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/PlayList.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FKH8kkXWcFcvvSK4MBZyOP5/CSf73fJhzE5zDkkupAU="
+        }
+      ]
+    },
+    {
+      "Route": "Css/RecuperarContrasenia.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\RecuperarContrasenia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+uG2CLcX3bORyxKixwiYXS78fUXLQl93Lh1lieEKd7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 23:58:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+uG2CLcX3bORyxKixwiYXS78fUXLQl93Lh1lieEKd7o="
+        }
+      ]
+    },
+    {
+      "Route": "Css/RecuperarContrasenia.yx4gpubshe.css",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\RecuperarContrasenia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "479"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+uG2CLcX3bORyxKixwiYXS78fUXLQl93Lh1lieEKd7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 23:58:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yx4gpubshe"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/RecuperarContrasenia.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+uG2CLcX3bORyxKixwiYXS78fUXLQl93Lh1lieEKd7o="
         }
       ]
     },
@@ -401,7 +897,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "156"
+          "Value": "193"
         },
         {
           "Name": "Content-Type",
@@ -409,11 +905,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1lqszVJHfYRmJEfiRJv7NT5QB97WOnPECLXbVbauhos=\""
+          "Value": "\"oT4RuP4hEanHk+dFgLgdp2kLkg0N4gVjV7Hi6d154k8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 00:34:36 GMT"
+          "Value": "Sun, 16 Feb 2025 03:54:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -423,12 +919,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1lqszVJHfYRmJEfiRJv7NT5QB97WOnPECLXbVbauhos="
+          "Value": "sha256-oT4RuP4hEanHk+dFgLgdp2kLkg0N4gVjV7Hi6d154k8="
         }
       ]
     },
     {
-      "Route": "Css/style.qn41tsy96x.css",
+      "Route": "Css/style.f4wvtcu1b5.css",
       "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -438,7 +934,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "156"
+          "Value": "193"
         },
         {
           "Name": "Content-Type",
@@ -446,11 +942,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1lqszVJHfYRmJEfiRJv7NT5QB97WOnPECLXbVbauhos=\""
+          "Value": "\"oT4RuP4hEanHk+dFgLgdp2kLkg0N4gVjV7Hi6d154k8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 00:34:36 GMT"
+          "Value": "Sun, 16 Feb 2025 03:54:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -460,7 +956,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qn41tsy96x"
+          "Value": "f4wvtcu1b5"
         },
         {
           "Name": "label",
@@ -468,7 +964,216 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1lqszVJHfYRmJEfiRJv7NT5QB97WOnPECLXbVbauhos="
+          "Value": "sha256-oT4RuP4hEanHk+dFgLgdp2kLkg0N4gVjV7Hi6d154k8="
+        }
+      ]
+    },
+    {
+      "Route": "Js/BarraSonido.ic89h1an8g.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BarraSonido.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gkfr9nWxuVxk8TmaNpj9Qgd7l1TLiCnpL2TcDSGKgEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 01:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ic89h1an8g"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/BarraSonido.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gkfr9nWxuVxk8TmaNpj9Qgd7l1TLiCnpL2TcDSGKgEE="
+        }
+      ]
+    },
+    {
+      "Route": "Js/BarraSonido.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BarraSonido.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "515"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gkfr9nWxuVxk8TmaNpj9Qgd7l1TLiCnpL2TcDSGKgEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 01:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gkfr9nWxuVxk8TmaNpj9Qgd7l1TLiCnpL2TcDSGKgEE="
+        }
+      ]
+    },
+    {
+      "Route": "Js/BotonesIndex.537261z37o.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BotonesIndex.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxU58uqM+1rao23CPYkLdiDF2QhjgRA/CN9YrOZOXmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 00:28:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "537261z37o"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/BotonesIndex.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nxU58uqM+1rao23CPYkLdiDF2QhjgRA/CN9YrOZOXmc="
+        }
+      ]
+    },
+    {
+      "Route": "Js/BotonesIndex.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BotonesIndex.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxU58uqM+1rao23CPYkLdiDF2QhjgRA/CN9YrOZOXmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 00:28:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nxU58uqM+1rao23CPYkLdiDF2QhjgRA/CN9YrOZOXmc="
+        }
+      ]
+    },
+    {
+      "Route": "Js/carrucel.ecmhr9oi2x.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\carrucel.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Feb 2025 15:29:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ecmhr9oi2x"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/carrucel.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E="
         }
       ]
     },
@@ -483,7 +1188,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "802"
+          "Value": "1264"
         },
         {
           "Name": "Content-Type",
@@ -491,11 +1196,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C8dVDCUa2K521kYcXXusF3kT+iFB0HLn0MVEgZF4aG0=\""
+          "Value": "\"orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 18:21:04 GMT"
+          "Value": "Tue, 18 Feb 2025 15:29:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -505,13 +1210,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-C8dVDCUa2K521kYcXXusF3kT+iFB0HLn0MVEgZF4aG0="
+          "Value": "sha256-orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E="
         }
       ]
     },
     {
-      "Route": "Js/carrucel.zubcgsslow.js",
-      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\carrucel.js",
+      "Route": "Js/CrearCuenta.e0rplpuy91.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -520,7 +1225,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "802"
+          "Value": "1221"
         },
         {
           "Name": "Content-Type",
@@ -528,11 +1233,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C8dVDCUa2K521kYcXXusF3kT+iFB0HLn0MVEgZF4aG0=\""
+          "Value": "\"AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 18:21:04 GMT"
+          "Value": "Thu, 20 Feb 2025 23:24:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -542,15 +1247,134 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zubcgsslow"
+          "Value": "e0rplpuy91"
         },
         {
           "Name": "label",
-          "Value": "Js/carrucel.js"
+          "Value": "Js/CrearCuenta.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-C8dVDCUa2K521kYcXXusF3kT+iFB0HLn0MVEgZF4aG0="
+          "Value": "sha256-AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo="
+        }
+      ]
+    },
+    {
+      "Route": "Js/CrearCuenta.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 23:24:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo="
+        }
+      ]
+    },
+    {
+      "Route": "Js/IniciarSesion.e356w1z5cx.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\IniciarSesion.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 18:16:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e356w1z5cx"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/IniciarSesion.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw="
+        }
+      ]
+    },
+    {
+      "Route": "Js/IniciarSesion.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\IniciarSesion.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 18:16:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw="
         }
       ]
     },

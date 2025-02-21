@@ -1,0 +1,66 @@
+﻿@{
+	Layout = "";
+	ViewBag.Title = "Iniciar Sesion";
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewBag.Title</title>
+	<link rel="stylesheet" href="~/Css/EstructuraResgitraseYSesion.css" asp-append-version="true" />
+	<link rel="icon" href="~/spotify.ico" type="image/x-icon" />
+</head>
+<body>
+	<div class="fondo">
+		<div class="container iniciarSesion">
+			<span>
+				<component type="typeof(Logo)" render-mode="ServerPrerendered" />
+			</span>
+			<h1 class="h1">
+				Iniciar sesión en Spotify
+			</h1>
+			<div class="botonesIniciarSesion">
+				<button class="registraseCon">
+					<component type="typeof(GoogleIcon)" render-mode="ServerPrerendered" />
+					<span>Registrarse con Google</span>
+				</button>
+				<button class="registraseCon">
+					<component type="typeof(FacebookIcon)" render-mode="ServerPrerendered" />
+					<span>Registrarse con Facebook</span>
+				</button>
+				<button class="registraseCon">
+					<component type="typeof(AppleIcon)" render-mode="ServerPrerendered" />
+					<span>Registrarse con Apple</span>
+				</button>
+			</div>
+			<div class="linea UltimaLinea" style="width: 75%; margin: 40px 0px;"></div>
+
+			<form>
+				<label>
+					Correo electrónico o nombre de usuario
+					<input type="text" placeholder="Correo electrónico o nombre de usuario" />
+				</label>
+				<label>
+					Contraseña
+					<div class="contrasenia">
+						<input type="password" placeholder="Contraseña" id="contrasenia"/>
+						<div class="mirar" id="mirar">
+							<component type="typeof(MirarContraseña)" render-mode="ServerPrerendered" />
+						</div>
+						<div class="ocultar" id="ocultar">
+							<component type="typeof(OcultarContraseña)" render-mode="ServerPrerendered" />
+						</div>
+					</div>
+				</label>
+				<button class="proximo">Acceso</button>
+			</form>
+			<a asp-controller="Paginas" asp-action="RestablecerContrasenia" class="olvidasteContrasenia">¿Olvidaste tu contraseña?</a>
+			<div class="VincularCuenta">
+				<span class="tenerCuenta">¿No tienes una cuenta? <a asp-action="CrearCuenta" asp-asp-controller="Paginas">Regístrate en Spotify</a> .</span>
+			</div>
+		</div>
+	</div>
+	<script src="~/Js/IniciarSesion.js" asp-append-version="true"></script>
+</body>
+</html>

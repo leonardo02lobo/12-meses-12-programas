@@ -1,0 +1,16 @@
+﻿<div id="barraProgreso">
+	<p class="flecha">
+		<FlechaAtras/>
+	</p>
+	<p class="progreso">
+		<span class="pasos">Paso @NumeroPaso de 3</span>
+		<span>@Span</span>
+	</p>
+</div>
+
+@code{
+	[Parameter]
+	public int NumeroPaso { get; set; }
+	[Parameter]
+	public string? Span { get; set; }
+}

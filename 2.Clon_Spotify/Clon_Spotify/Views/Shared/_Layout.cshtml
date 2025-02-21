@@ -1,58 +1,74 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewBag.Title</title>
-    <link href="~/Css/style.css" rel="stylesheet" asp-append-version="true"/>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewBag.Title</title>
+	<link href="~/Css/style.css" rel="stylesheet" asp-append-version="true"/>
 	<link href="~/Css/Navegacion.css" rel="stylesheet" asp-append-version="true" />
 	<link href="~/Css/Contenido.css" rel="stylesheet" asp-append-version="true" />
 	<link href="~/Css/Index.css" rel="stylesheet" asp-append-version="true" />
+	<link href="~/Css//PlayList.css" rel="stylesheet" asp-append-version="true" />
+	<link href="~/Css/Artista.css" rel="stylesheet" asp-append-version="true" />
 	<link rel="icon" href="~/spotify.ico" type="image/x-icon"/>
 </head>
 <body>
-    <header>
+	<header>
 		<nav>
-			<div>
-				<a asp-controller="Home" asp-action="Index">
-					<component type="typeof(Logo)" render-mode="ServerPrerendered"/>
-				</a>
-			</div>
-			<div class="busqueda">
-				<a class="circulo" asp-controller="Home" asp-action="Index">
-					<component type="typeof(Home)" render-mode="ServerPrerendered"/>
-				</a>
-				<div class="buscador">
-					<div class="lupa">
-						<component type="typeof(Lupa)" render-mode="ServerPrerendered" />
-					</div>
-					<div class="barra-busqueda">
-						<input type="text" placeholder="What do you want to play?" />
-						<span>
-							<kbd>Ctrl</kbd>
-							<kbd>K</kbd>
-						</span>
-					</div>
-					<a class="biblioteca" asp-action="Listado" asp-controller="Home">
-						<component type="typeof(Biblioteca)" render-mode="ServerPrerendered" />
+			<section class="logo">
+				<div>
+					<a asp-controller="Home" asp-action="Index">
+						<component type="typeof(Logo)" render-mode="ServerPrerendered" />
 					</a>
 				</div>
-			</div>
-			<div class="Datos-Usuario">
-				<button class="btn-premium"><strong>Explore Premium</strong></button>
-				<a class="circulo">
-					<component type="typeof(Notificaciones)" render-mode="ServerPrerendered" />
-				</a>
-				<a class="circulo">
-				</a>
-			</div>
+			</section>
+			<section class="botonesBusqueda">
+				<div class="busqueda">
+					<a class="circulo" asp-controller="Home" asp-action="Index">
+						<component type="typeof(Home)" render-mode="ServerPrerendered" />
+					</a>
+					<div class="buscador">
+						<div class="lupa">
+							<component type="typeof(Lupa)" render-mode="ServerPrerendered" />
+						</div>
+						<div class="barra-busqueda">
+							<input type="text" placeholder="What do you want to play?" class="input" />
+							<span>
+								<kbd>Ctrl</kbd>
+								<kbd>K</kbd>
+							</span>
+						</div>
+						<a class="biblioteca" asp-action="Listado" asp-controller="Home">
+							<component type="typeof(Biblioteca)" render-mode="ServerPrerendered" />
+						</a>
+					</div>
+				</div>
+				<div class="Datos-Usuario">
+					@if (true)
+					{
+						<div class="gruposBotones">
+							<a asp-controller="Paginas" asp-action="CrearCuenta" class="crearCuenta">Sing Up</a>
+							<a asp-controller="Paginas" asp-action="IniciarSesion" class="inicarSesion">Login in</a>
+						</div>
+					}
+					else
+					{
+						<a class="circulo">
+							<component type="typeof(Notificaciones)" render-mode="ServerPrerendered" />
+						</a>
+						<a class="circulo">
+						</a>
+					}
+				</div>
+			</section>
+			
 		</nav>
 
     </header>
     <section class="container">
 		<div class="play-list contenido">
 			<header class="header-playlist">
-				<div>
+				<div class="btn-biblioteca">
 					<a class="library">
 						<component type="typeof(Library)" render-mode="ServerPrerendered" />
 						<span class="your-library">
@@ -60,7 +76,7 @@
 						</span>
 					</a>
 				</div>
-				<div>
+				<div class="btn-header">
 					<button class="btn-opciones">
 						<span class="icono">
 							<component type="typeof(Mas)" render-mode="ServerPrerendered"/>
@@ -97,7 +113,12 @@
 					</p>
 				</section>
 				<section class="music">
-					<component type="typeof(BuscadorPlayList)" render-mode="ServerPrerendered" />
+					<a asp-action="PlayList" asp-controller="VistasParciales" class="link-playList">
+						<component type="typeof(TarjetaBiblioteclaAlbum)" render-mode="ServerPrerendered" />
+					</a>
+					<a asp-action="VerArtista" asp-controller="VistasParciales" class="link-playList">
+						<component type="typeof(TarjetaBibliotecaArtista)" render-mode="ServerPrerendered" />
+					</a>
 				</section>
 			</main>
 		</div>
@@ -106,7 +127,49 @@
 		</div>
     </section>
 	<footer>
+		<div class="datos-cancion">
+			<img src="https://i.scdn.co/image/ab67616d0000b273af1e2e143561cf4df9941f5b" alt="Alternate Text" />
+			<div class="datos-cancion-sonando">
+				<p>Nombre Cancion</p>
+				<p>Artista</p>
+			</div>
+		</div>
+		<div class="reproductor">
+			<div class="btn-reproduccion">
+				<component type="typeof(MixSonido)" render-mode="ServerPrerendered" />
+				<component type="typeof(AtrasSonido)" render-mode="ServerPrerendered" />
+				<component type="typeof(PlaySonido)" render-mode="ServerPrerendered"/>
+				<component type="typeof(DelanteSonido)" render-mode="ServerPrerendered" />
+				<component type="typeof(RepetirSonido)" render-mode="ServerPrerendered" />
+			</div>
+			<div class="reproductorMusica">
+				<span>0:00</span>
+				<div class="barraSonido"></div>
+				<span>3:37</span>
+			</div>
+		</div>
+		<div class="opciones-reproductor">
+			<component type="typeof(VistaCancionSonido)" render-mode="ServerPrerendered" />
+			<component type="typeof(LyricsSonido)" render-mode="ServerPrerendered" />
+			<component type="typeof(ColaSonido)" render-mode="ServerPrerendered" />
+			<component type="typeof(AddDispositivo)" render-mode="ServerPrerendered" />
+			<div>
+				<div id="sonido">
+					<div id="activo">
+						<component type="typeof(ParlanteSonido)" render-mode="ServerPrerendered"/>
+					</div>
+					<div id="desactivado">
+						<component type="typeof(ParlanteMuteSonido)" render-mode="ServerPrerendered" />
+					</div>
+				</div>
+				<div class="barraSonido sonidoCancion"></div>
+			</div>
+			<component type="typeof(MiniVentanaSonido)" render-mode="ServerPrerendered" />
+			<component type="typeof(FullSonido)" render-mode="ServerPrerendered" />
+		</div>
 	</footer>
 	<script src="~/Js/carrucel.js" asp-append-version="true"></script>
+	<script src="~/Js/BarraSonido.js" asp-append-version="true"></script>
+	<script src="~/Js/BotonesIndex.js" asp-append-version="true"></script>
 </body>
 </html>

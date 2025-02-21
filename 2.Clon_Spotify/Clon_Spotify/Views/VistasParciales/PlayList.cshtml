@@ -1,0 +1,68 @@
+﻿@model List<Cancion>
+@{
+	ViewBag.Title = "Nombre Artista-Cancion Sonando";
+	Usuario artista = ViewBag.Usuario;
+}
+@functions{
+	int i = 1;
+	public int AumentarValor()
+	{
+		return i++;
+	}
+}
+
+<main>
+	<section class="VistaPlayList">
+		<img src="@Model[0].UrlImage" alt="Album" />
+		<div class="datos">
+			<p>Album/Ep</p>
+			<h1>@Model[0].AlbumMusica</h1>
+			<p>
+				<a asp-action="VerArtista" asp-controller="VistasParciales" asp-route-id="@artista.IdUsuario">
+					<img src="@artista.FotoPerfil" alt="PerfilArtista" />
+					@artista.NombreUsuario
+				</a> •
+				<span>@Model[0].Anio • @Model.Count() • duracion</span>
+			</p>
+		</div>
+	</section>
+	<section class="navegacion-lista">
+		<div class="btn-navegacion-lista">
+			<component type="typeof(PlayListas)" render-mode="ServerPrerendered" />
+		</div>
+		<div class="tipo-listado">
+			<p>
+				List
+				<component type="typeof(Filtrar)" render-mode="ServerPrerendered" />
+			</p>
+		</div>
+	</section>
+	<section class="listado">
+		<table>
+			<thead>
+				<tr>
+					<td>#</td>
+					<td>Title</td>
+					<td>🕛</td>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach(Cancion cancion in Model){
+						<tr class="cancion">
+							<td>
+								@AumentarValor()
+								<div class="play" style="display: none;">
+									<component type="typeof(PlaySonido)" render-mode="ServerPrerendered" />
+								</div>
+							</td>
+							<td class="musica">
+								@cancion.NombreMusica
+								<a asp-action="VerArtista" asp-controller="VistasParciales" asp-route-id="@artista.IdUsuario"> @artista.NombreUsuario</a>
+							</td>
+							<td>2:36</td>
+						</tr>
+					}
+			</tbody>
+		</table>
+	</section>
+</main>
