@@ -11,11 +11,31 @@
 
 #### Este proyecto consiste en la creacion de un CRUD con ORM y a su vez tener una api de la base de datos para poder acceder por ella y consultar los datos, en este proyecto se trabajara el uso de MVC (Model-View-Controller) y aprendere el uso de los ORM y sus caracteristicas
 
-* Lenguajes a trabajar
+* Lenguajes trabajados en la API_Juegos
   * .NET
   * ASP.NET
   * HTML
   * CSS
   * Bootstrap
+  * Base de datos (SQLServer)
+  * ORM (Entity Framework)
+
+## 2 mes 1 Programa
+### Spotify_Clon
+
+#### Este proyecto esta inspirado en la famosa aplicacion multiplataforma desarrollado para conocer el concepto de la aplicacion y mejorar las habilidades, principalmente este proyecto fue creado con .NET para el lado del Backend con un ORM de C# para manejar la base de datos de manera orientada a objetos.
+
+#### Se trabajo con HTML, CSS y Javascript para el Fronted, javascript se utilizo generalmente para darle interacciones a la pagina, tambien para la interaccion se tomo el tema de componentes razor para una mejor reutilizacion de codigo.
+
+#### La manera que se uso CSS fue sin ningun Framework, ya que se quiso practicar el uso de CSS puro a aprender sobre buenas practicas y la reutilizacion de clases
+
+#### Para la base de datos se utilizo SQL Server ya que es la base de datos que mejor se integra con Entity Framework
+
+* Lenguajes trabajados en Spotify_Clon
+  * .NET
+  * ASP.NET
+  * HTML
+  * CSS
+  * Javascript
   * Base de datos (SQLServer)
   * ORM (Entity Framework)
