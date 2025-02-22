@@ -10,6 +10,12 @@
 * Entity Framework
 * SQL Server
 
+## Como usar el proyecto 
+
+#### El proyecto consiste en una pagina con ASP.NET para conocer sobre este FrameWork, para poder usar este proyecto clona el respoitorio con esta url `https://github.com/leonardo02lobo/12-meses-12-programas.git` luego entra a la carpeta `1.API_JUEGOS` y abrela en tu editor de codigo favorito para trabajar con el entorno .NET.
+
+#### Luego ejecuta la accion y accede a la direccion `https://localhost:7068/` y tendra la vista principal de la aplicacion donde puedes crear una nueva tarjeta para el juego, mirar todos los juegos, editar o borrar un juego y poder acceder a su API por medio de la siguiente url `https://localhost:7068/api/ApiGame`
+
 ## Imagenes del Proyecto
 
 ### Inicio del Proyecto

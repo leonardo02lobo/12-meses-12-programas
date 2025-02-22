@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jt0hgnr311</Fingerprint>
-      <Integrity>Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=</Integrity>
+      <Fingerprint>lpattl1g6n</Fingerprint>
+      <Integrity>eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm+IUbhMo8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\EstructuraResgitraseYSesion.css'))</OriginalItemSpec>
@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e0rplpuy91</Fingerprint>
-      <Integrity>AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=</Integrity>
+      <Fingerprint>pan7gus460</Fingerprint>
+      <Integrity>sXnjRh9kooAm6LlfIOs4rN4qn+NlQ5triDCl45XWYwM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\CrearCuenta.js'))</OriginalItemSpec>

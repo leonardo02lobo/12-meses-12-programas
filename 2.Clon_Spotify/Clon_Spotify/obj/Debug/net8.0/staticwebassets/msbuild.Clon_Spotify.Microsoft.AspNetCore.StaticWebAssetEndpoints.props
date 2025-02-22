@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/EstructuraResgitraseYSesion.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\EstructuraResgitraseYSesion.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q\u002BOAxXMJYU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5483"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q\u002BOAxXMJYU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 02:18:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm\u002BIUbhMo8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5584"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm\u002BIUbhMo8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 23:54:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/EstructuraResgitraseYSesion.jt0hgnr311.css">
+    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/EstructuraResgitraseYSesion.lpattl1g6n.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\EstructuraResgitraseYSesion.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jt0hgnr311"},{"Name":"integrity","Value":"sha256-Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q\u002BOAxXMJYU="},{"Name":"label","Value":"_content/Clon_Spotify/Css/EstructuraResgitraseYSesion.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5483"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q\u002BOAxXMJYU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 02:18:38 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lpattl1g6n"},{"Name":"integrity","Value":"sha256-eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm\u002BIUbhMo8="},{"Name":"label","Value":"_content/Clon_Spotify/Css/EstructuraResgitraseYSesion.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5584"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm\u002BIUbhMo8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 23:54:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/Index.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Index.css'))</AssetFile>
@@ -132,17 +132,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1264"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022orUv5UWytYDGWfoZZcd4gi8h5wCiZtjL9psopphO25E=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 15:29:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Js/CrearCuenta.e0rplpuy91.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\CrearCuenta.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e0rplpuy91"},{"Name":"integrity","Value":"sha256-AhJ0z9RK9NLdlylj\u002B9lX8bTm6Quk46RcrpIJa2xqUSo="},{"Name":"label","Value":"_content/Clon_Spotify/Js/CrearCuenta.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1221"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AhJ0z9RK9NLdlylj\u002B9lX8bTm6Quk46RcrpIJa2xqUSo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 23:24:59 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Js/CrearCuenta.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\CrearCuenta.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AhJ0z9RK9NLdlylj\u002B9lX8bTm6Quk46RcrpIJa2xqUSo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1221"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AhJ0z9RK9NLdlylj\u002B9lX8bTm6Quk46RcrpIJa2xqUSo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 23:24:59 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sXnjRh9kooAm6LlfIOs4rN4qn\u002BNlQ5triDCl45XWYwM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4832"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sXnjRh9kooAm6LlfIOs4rN4qn\u002BNlQ5triDCl45XWYwM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 18:49:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Js/CrearCuenta.pan7gus460.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\CrearCuenta.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pan7gus460"},{"Name":"integrity","Value":"sha256-sXnjRh9kooAm6LlfIOs4rN4qn\u002BNlQ5triDCl45XWYwM="},{"Name":"label","Value":"_content/Clon_Spotify/Js/CrearCuenta.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4832"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sXnjRh9kooAm6LlfIOs4rN4qn\u002BNlQ5triDCl45XWYwM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 18:49:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Js/IniciarSesion.e356w1z5cx.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\IniciarSesion.js'))</AssetFile>

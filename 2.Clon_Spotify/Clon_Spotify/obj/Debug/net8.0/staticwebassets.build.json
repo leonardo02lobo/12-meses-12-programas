@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gUT9MHORCQyN25joCyfx9wAyILvfWdd7ZfRoarGgUjM=",
+  "Hash": "SN65GkI5tgXOEaFEqwsEd75O7Ro0kzSiu0R3rIYRtb8=",
   "Source": "Clon_Spotify",
   "BasePath": "_content/Clon_Spotify",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jt0hgnr311",
-      "Integrity": "Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=",
+      "Fingerprint": "lpattl1g6n",
+      "Integrity": "eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm+IUbhMo8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Css\\EstructuraResgitraseYSesion.css"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e0rplpuy91",
-      "Integrity": "AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=",
+      "Fingerprint": "pan7gus460",
+      "Integrity": "sXnjRh9kooAm6LlfIOs4rN4qn+NlQ5triDCl45XWYwM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Js\\CrearCuenta.js"
@@ -487,7 +487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5483"
+          "Value": "5584"
         },
         {
           "Name": "Content-Type",
@@ -495,11 +495,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=\""
+          "Value": "\"eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm+IUbhMo8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 02:18:38 GMT"
+          "Value": "Thu, 20 Feb 2025 23:54:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -509,12 +509,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU="
+          "Value": "sha256-eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm+IUbhMo8="
         }
       ]
     },
     {
-      "Route": "Css/EstructuraResgitraseYSesion.jt0hgnr311.css",
+      "Route": "Css/EstructuraResgitraseYSesion.lpattl1g6n.css",
       "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\EstructuraResgitraseYSesion.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -524,7 +524,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5483"
+          "Value": "5584"
         },
         {
           "Name": "Content-Type",
@@ -532,11 +532,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU=\""
+          "Value": "\"eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm+IUbhMo8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 02:18:38 GMT"
+          "Value": "Thu, 20 Feb 2025 23:54:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -546,7 +546,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jt0hgnr311"
+          "Value": "lpattl1g6n"
         },
         {
           "Name": "label",
@@ -554,7 +554,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Z1rhQWguO5MvoJ/p5gBJptil4CirPT8i6q+OAxXMJYU="
+          "Value": "sha256-eZzQXBrIx4wNpHo3wUGT4jN7YelcaW2RVmm+IUbhMo8="
         }
       ]
     },
@@ -1215,51 +1215,6 @@
       ]
     },
     {
-      "Route": "Js/CrearCuenta.e0rplpuy91.js",
-      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1221"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 23:24:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e0rplpuy91"
-        },
-        {
-          "Name": "label",
-          "Value": "Js/CrearCuenta.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo="
-        }
-      ]
-    },
-    {
       "Route": "Js/CrearCuenta.js",
       "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
       "Selectors": [],
@@ -1270,7 +1225,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1221"
+          "Value": "4832"
         },
         {
           "Name": "Content-Type",
@@ -1278,11 +1233,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo=\""
+          "Value": "\"sXnjRh9kooAm6LlfIOs4rN4qn+NlQ5triDCl45XWYwM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 23:24:59 GMT"
+          "Value": "Sat, 22 Feb 2025 18:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1292,7 +1247,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AhJ0z9RK9NLdlylj+9lX8bTm6Quk46RcrpIJa2xqUSo="
+          "Value": "sha256-sXnjRh9kooAm6LlfIOs4rN4qn+NlQ5triDCl45XWYwM="
+        }
+      ]
+    },
+    {
+      "Route": "Js/CrearCuenta.pan7gus460.js",
+      "AssetFile": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sXnjRh9kooAm6LlfIOs4rN4qn+NlQ5triDCl45XWYwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 18:49:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pan7gus460"
+        },
+        {
+          "Name": "label",
+          "Value": "Js/CrearCuenta.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sXnjRh9kooAm6LlfIOs4rN4qn+NlQ5triDCl45XWYwM="
         }
       ]
     },

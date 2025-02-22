@@ -18,163 +18,165 @@
 		<span>
 			<component type="typeof(Logo)" render-mode="ServerPrerendered" />
 		</span>
-		<section id="registrar">
-			<h1>
-				Regístrate para comenzar a escuchar
-			</h1>
-			<label>
-				Direccion de correo Electronico
-				<input asp-for="Correo" type="text" placeholder="nombre@dominio.com" id="correo" />
-				<div class="warning" id="warning">
-					<component type="typeof(Warning)" render-mode="ServerPrerendered" />
-					<span>
-						Este correo electrónico no es válido. Asegúrese de que esté escrito como ejemplo@correoelectrónico.com
-					</span>
+		<form asp-action="CrearCuenta" asp-controller="Paginas" method="post">
+			<section id="registrar">
+				<h1>
+					Regístrate para comenzar a escuchar
+				</h1>
+				<label>
+					Direccion de correo Electronico
+					<input asp-for="Correo" type="text" placeholder="nombre@dominio.com" id="correo" />
+					<div class="warning" id="warning">
+						<component type="typeof(Warning)" render-mode="ServerPrerendered" />
+						<span>
+							Este correo electrónico no es válido. Asegúrese de que esté escrito como ejemplo@correoelectrónico.com
+						</span>
+					</div>
+				</label>
+				<button type="button" class="proximo">Proximo</button>
+				<div class="separador">
+					<div class="linea"></div>
+					<div class="punto"></div>
+					<div class="linea"></div>
 				</div>
-			</label>
-			<button class="proximo">Proximo</button>
-			<div class="separador">
-				<div class="linea"></div>
-				<div class="punto"></div>
-				<div class="linea"></div>
-			</div>
-			<button class="registraseCon">
-				<component type="typeof(GoogleIcon)" render-mode="ServerPrerendered" />
-				<span>Registrarse con Google</span>
-			</button >
-			<button class ="registraseCon">
-				<component type="typeof(FacebookIcon)" render-mode="ServerPrerendered" />
-				<span>Registrarse con Facebook</span>
-			</button>
-			<button class="registraseCon">
-				<component type="typeof(AppleIcon)" render-mode="ServerPrerendered" />
-				<span>Registrarse con Apple</span>
-			</button>
-			<div class="linea UltimaLinea"></div>
-			<div class="VincularCuenta">
-				<span class="tenerCuenta">¿Ya tienes una cuenta? <a asp-action="IniciarSesion" asp-asp-controller="Paginas">Inicia sesión aquí</a> .</span>
-			</div>
-		</section>
+				<button type="button" class="registraseCon">
+					<component type="typeof(GoogleIcon)" render-mode="ServerPrerendered" />
+					<span>Registrarse con Google</span>
+				</button>
+				<button type="button" class="registraseCon">
+					<component type="typeof(FacebookIcon)" render-mode="ServerPrerendered" />
+					<span>Registrarse con Facebook</span>
+				</button>
+				<button type="button" class="registraseCon">
+					<component type="typeof(AppleIcon)" render-mode="ServerPrerendered" />
+					<span>Registrarse con Apple</span>
+				</button>
+				<div class="linea UltimaLinea"></div>
+				<div class="VincularCuenta">
+					<span class="tenerCuenta">¿Ya tienes una cuenta? <a asp-action="IniciarSesion" asp-asp-controller="Paginas">Inicia sesión aquí</a> .</span>
+				</div>
+			</section>
 
-		<div id="Progreso">
-		</div>
+			<div id="Progreso">
+			</div>
 
-		<section id="datosExtras">
-			<component type="typeof(PasosCrearCuenta)" render-mode="ServerPrerendered" param-NumeroPaso="1" param-Span="@textos[0]"  />
-			<label class="espaciador">
+			<section id="datosExtras">
+				<component type="typeof(PasosCrearCuenta)" render-mode="ServerPrerendered" param-NumeroPaso="1" param-Span="@textos[0]" />
+				<label class="espaciador">
 					Contraseña
-				<div class="contrasenia">
-					<input type="password" id="contrasenia" />
-					<div class="mirar" id="mirar">
-						<component type="typeof(MirarContraseña)" render-mode="ServerPrerendered" />
+					<div class="contrasenia">
+						<input asp-for="Contrasenia" type="password" id="contrasenia" />
+						<div class="mirar" id="mirar">
+							<component type="typeof(MirarContraseña)" render-mode="ServerPrerendered" />
+						</div>
+						<div class="ocultar" id="ocultar">
+							<component type="typeof(OcultarContraseña)" render-mode="ServerPrerendered" />
+						</div>
 					</div>
-					<div class="ocultar" id="ocultar">
-						<component type="typeof(OcultarContraseña)" render-mode="ServerPrerendered" />
-					</div>
+				</label>
+				<div class="extra">
+					<span>La contraseña debe tener al menos</span>
+					<ul>
+						<li>
+							<component type="typeof(ChulitoDesactivado)" render-mode="ServerPrerendered" />
+							<span>1 letra</span>
+						</li>
+						<li>
+							<component type="typeof(ChulitoDesactivado)" render-mode="ServerPrerendered" />
+							<span>1 número o carácter especial (ejemplo: #, ?, ! o &)</span>
+						</li>
+						<li>
+							<component type="typeof(ChulitoDesactivado)" render-mode="ServerPrerendered" />
+							<span>10 caracteres</span>
+						</li>
+					</ul>
 				</div>
-			</label>
-			<div class="extra">
-				<span>La contraseña debe tener al menos</span>
-				<ul>
-					<li>
-						<component type="typeof(ChulitoDesactivado)" render-mode="ServerPrerendered" />
-						<span>1 letra</span>
-					</li>
-					<li>
-						<component type="typeof(ChulitoDesactivado)" render-mode="ServerPrerendered" />
-						<span>1 número o carácter especial (ejemplo: #, ?, ! o &)</span>
-					</li>
-					<li>
-						<component type="typeof(ChulitoDesactivado)" render-mode="ServerPrerendered" />
-						<span>10 caracteres</span>
-					</li>
-				</ul>
-			</div>
-			<button class="proximo">Proximo</button>
-		</section>
+				<button type="button" class="proximo">Proximo</button>
+			</section>
 
-		<section id="sobreTi">
-			<component type="typeof(PasosCrearCuenta)" render-mode="ServerPrerendered" param-NumeroPaso="2" param-Span="@textos[1]" />
-			<label class="espaciador">
-				<span>Nombre</span>
-				<span>Este nombre aparecerá en tu perfil</span>
-				<input type="text" />
-			</label>
-			<label class="espaciador">
-				<span>Fecha de nacimiento</span>
-				<span>¿Por qué necesitamos tu fecha de nacimiento? <a href="https://www.spotify.com/ve-es/legal/end-user-agreement/" target="_blank">Obtén más información.</a></span>
-				<div>
-					<input type="text" placeholder="dd" />
-					<select name="select">
-						<option value="0" selected>Mes</option>
-						<option value="1">Enero</option>
-						<option value="2">Febrero</option>
-						<option value="3">Marzo</option>
-						<option value="4">Abril</option>
-						<option value="5">Mayo</option>
-						<option value="6">Junio</option>
-						<option value="7">Julio</option>
-						<option value="8">Agosto</option>
-						<option value="9">Septiembre</option>
-						<option value="10">Octubre</option>
-						<option value="11">Noviembre</option>
-						<option value="12">Diciembre</option>
-					</select>
-					<input type="text" placeholder="aaaa" />
-				</div>
-				
-			</label>
-			<label class="espaciador">
-				<span>Género</span>
-				<span>Usamos este dato para personalizar las recomendaciones de contenido y los anuncios que te mostramos.</span>
-				<div class="grupoBotones">
+			<section id="sobreTi">
+				<component type="typeof(PasosCrearCuenta)" render-mode="ServerPrerendered" param-NumeroPaso="2" param-Span="@textos[1]" />
+				<label class="espaciador">
+					<span>Nombre</span>
+					<span>Este nombre aparecerá en tu perfil</span>
+					<input asp-for="NombreUsuario" type="text" id="nombre" />
+				</label>
+				<label class="espaciador">
+					<span>Fecha de nacimiento</span>
+					<span>¿Por qué necesitamos tu fecha de nacimiento? <a href="https://www.spotify.com/ve-es/legal/end-user-agreement/" target="_blank">Obtén más información.</a></span>
 					<div>
-						<div class="genero">
-							<input type="radio" name="genero" id="hombre" />
-							<label for="hombre">Hombre</label>
-						</div>
-						<div class="genero">
-							<input type="radio" name="genero" id="mujer" />
-							<label for="mujer">Mujer</label>
-						</div>
-						<div class="genero">
-							<input type="radio" name="genero" id="noBinario" />
-							<label for="noBinario">No Binario</label>
-						</div>
-						<div class="genero">
-							<input type="radio" name="genero" id="otro" />
-							<label for="otro">Otra cosa</label>
-						</div>
-						<div class="genero">
-							<input type="radio" name="genero" id="noAclarar" />
-							<label for="noAclarar">Prefiero no aclarlo</label>
-						</div>
+						<input type="text" placeholder="dd" id="dia" />
+						<select name="select">
+							<option value="0" selected>Mes</option>
+							<option value="1">Enero</option>
+							<option value="2">Febrero</option>
+							<option value="3">Marzo</option>
+							<option value="4">Abril</option>
+							<option value="5">Mayo</option>
+							<option value="6">Junio</option>
+							<option value="7">Julio</option>
+							<option value="8">Agosto</option>
+							<option value="9">Septiembre</option>
+							<option value="10">Octubre</option>
+							<option value="11">Noviembre</option>
+							<option value="12">Diciembre</option>
+						</select>
+						<input type="text" placeholder="aaaa" id="anio" />
 					</div>
-					
-				</div>
-				
-			</label>
-			<button class="proximo">Proximo</button>
-		</section>
 
-		<section id="TerminosCondicionales">
-			<component type="typeof(PasosCrearCuenta)" render-mode="ServerPrerendered" param-NumeroPaso="3" param-Span="@textos[2]" />
-			<divx class="elementos">
-				<div class="tarjetaTerminos">
-					<input type="checkbox"/>
-					<span>Prefiero no recibir publicidad de Spotify</span>
-				</div>
-				<div class="tarjetaTerminos">
-					<input type="checkbox" />
-					<span>Compartir mis datos de registro con los proveedores de contenido de Spotify para fines de marketing.</span>
-				</div>
-				<div class="tarjetaTerminos">
-					<input type="checkbox" />
-					<span>Acepto los <a target="_blank" href="https://www.spotify.com/ve-es/legal/end-user-agreement/">Términos y Condiciones de Uso</a> y la <a target="_blank" href="https://www.spotify.com/ve-es/legal/privacy-policy/">Política de Privacidad de Spotify</a>.</span>
-				</div>
-			</divx>
-			<button class="proximo">Proximo</button>
-		</section>
+				</label>
+				<label class="espaciador">
+					<span>Género</span>
+					<span>Usamos este dato para personalizar las recomendaciones de contenido y los anuncios que te mostramos.</span>
+					<div class="grupoBotones">
+						<div>
+							<div class="genero">
+								<input type="radio" name="genero" id="hombre" />
+								<label for="hombre">Hombre</label>
+							</div>
+							<div class="genero">
+								<input type="radio" name="genero" id="mujer" />
+								<label for="mujer">Mujer</label>
+							</div>
+							<div class="genero">
+								<input type="radio" name="genero" id="noBinario" />
+								<label for="noBinario">No Binario</label>
+							</div>
+							<div class="genero">
+								<input type="radio" name="genero" id="otro" />
+								<label for="otro">Otra cosa</label>
+							</div>
+							<div class="genero">
+								<input type="radio" name="genero" id="noAclarar" />
+								<label for="noAclarar">Prefiero no aclarlo</label>
+							</div>
+						</div>
+
+					</div>
+
+				</label>
+				<button type="button" class="proximo">Proximo</button>
+			</section>
+
+			<section id="TerminosCondicionales">
+				<component type="typeof(PasosCrearCuenta)" render-mode="ServerPrerendered" param-NumeroPaso="3" param-Span="@textos[2]" />
+				<divx class="elementos">
+					<div class="tarjetaTerminos">
+						<input type="checkbox" id="terminos" />
+						<span>Prefiero no recibir publicidad de Spotify</span>
+					</div>
+					<div class="tarjetaTerminos">
+						<input type="checkbox" id="terminos" />
+						<span>Compartir mis datos de registro con los proveedores de contenido de Spotify para fines de marketing.</span>
+					</div>
+					<div class="tarjetaTerminos">
+						<input type="checkbox" id="terminos" />
+						<span>Acepto los <a target="_blank" href="https://www.spotify.com/ve-es/legal/end-user-agreement/">Términos y Condiciones de Uso</a> y la <a target="_blank" href="https://www.spotify.com/ve-es/legal/privacy-policy/">Política de Privacidad de Spotify</a>.</span>
+					</div>
+				</divx>
+				<button type="submit" class="proximo">Proximo</button>
+			</section>
+		</form>
 	</div>
 	<script src="~/Js/CrearCuenta.js" asp-append-version="true"></script>
 </body>
