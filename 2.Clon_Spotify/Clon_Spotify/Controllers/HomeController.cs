@@ -21,7 +21,7 @@ namespace Clon_Spotify.Controllers
         }
         [HttpPost]
         public IActionResult Index(bool band)
-        {
+        { 
             ViewBag.ListaAlbum = _context.Albums.ToList();
             ViewBag.band = false;
             return View();

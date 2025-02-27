@@ -43,6 +43,16 @@ nav {
     margin-right: 20px;
 }
 
+.circulo > img {
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.circulo > img:hover {
+    cursor: pointer;
+}
+
 .buscador {
     display: flex;
     flex-direction: row;
@@ -147,6 +157,36 @@ nav {
 
 .crearCuenta:hover {
     font-size: 22px;
+}
+
+#menuDesplegable {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cerrarsesion {
+    display: none;
+    position: absolute;
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    width: 140px;
+    right: 20px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.cerrarsesion > ul > li {
+    list-style: none;
+    position: relative;
+}
+
+.cerrarsesion > ul > li > a {
+    text-decoration: none;
+    color: rgb(115 115 115);
+    font-size: 15px;
 }
 
 @media (max-width: 900px) {

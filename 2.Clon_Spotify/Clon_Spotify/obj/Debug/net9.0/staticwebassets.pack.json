@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Artista.css",
+      "PackagePath": "staticwebassets\\Css\\Artista.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Contenido.css",
+      "PackagePath": "staticwebassets\\Css\\Contenido.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\EstructuraResgitraseYSesion.css",
+      "PackagePath": "staticwebassets\\Css\\EstructuraResgitraseYSesion.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Index.css",
+      "PackagePath": "staticwebassets\\Css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\Navegacion.css",
+      "PackagePath": "staticwebassets\\Css\\Navegacion.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\PlayList.css",
+      "PackagePath": "staticwebassets\\Css\\PlayList.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\RecuperarContrasenia.css",
+      "PackagePath": "staticwebassets\\Css\\RecuperarContrasenia.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Css\\style.css",
+      "PackagePath": "staticwebassets\\Css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BarraSonido.js",
+      "PackagePath": "staticwebassets\\Js\\BarraSonido.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\BotonesIndex.js",
+      "PackagePath": "staticwebassets\\Js\\BotonesIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\CrearCuenta.js",
+      "PackagePath": "staticwebassets\\Js\\CrearCuenta.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\IniciarSesion.js",
+      "PackagePath": "staticwebassets\\Js\\IniciarSesion.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\SeleccionarCancion.js",
+      "PackagePath": "staticwebassets\\Js\\SeleccionarCancion.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\carrucel.js",
+      "PackagePath": "staticwebassets\\Js\\carrucel.js"
+    },
+    {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\spotify.ico",
+      "PackagePath": "staticwebassets\\spotify.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Clon_Spotify.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Clon_Spotify.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Clon_Spotify.props",
+      "PackagePath": "build\\Clon_Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Clon_Spotify.props",
+      "PackagePath": "buildMultiTargeting\\Clon_Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Clon_Spotify.props",
+      "PackagePath": "buildTransitive\\Clon_Spotify.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

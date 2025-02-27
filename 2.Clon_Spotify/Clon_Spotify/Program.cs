@@ -1,4 +1,5 @@
 using Clon_Spotify.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,16 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ClonSpotifyContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("ConexionBD")));
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Paginas/IniciarSesion";
+        options.AccessDeniedPath = "/Paginas/IniciarSesion";
+        options.LogoutPath = "/Paginas/CerrarSesion";
+    });
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
@@ -23,6 +34,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

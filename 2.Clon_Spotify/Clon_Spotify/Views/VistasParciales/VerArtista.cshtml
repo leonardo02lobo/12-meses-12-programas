@@ -1,9 +1,12 @@
-﻿@{
+﻿@model List<Album>
+@inject ClonSpotifyContext context
+@{
 	Usuario artista = ViewBag.Artista;
 	Artistum datosArtista = ViewBag.DatosExtra;
 	ViewBag.Title = $"{artista.NombreUsuario} | Spotify_Clon";
+	var agregado = context.Bibliotecas.FirstOrDefault(m => m.AlbumMusica == artista.NombreUsuario);
+	bool existe = (agregado != null) ? true : false;
 }
-@model List<Album>
 
 <div class="CabeceraPerfil">
 	<div>
@@ -16,6 +19,21 @@
 			<span>@datosArtista.OyentesMensuales Oyentes Mensuales</span>
 		</div>
 	</div>
+</div>
+<div class="btn-navegacion-lista" style="justify-content: start;">
+	<component type="typeof(PlayListas)" render-mode="ServerPrerendered" />
+	@if (existe)
+	{
+		<a asp-action="EliminarArtista" asp-controller="Artista" asp-route-nombreArtista="@artista.NombreUsuario">
+			<component type="typeof(AgregadoPlayList)" render-mode="ServerPrerendered" />
+		</a>
+	}
+	else
+	{
+		<a asp-action="GuardarArtista" asp-controller="Artista" asp-route-nombreArtista="@artista.NombreUsuario">
+			<component type="typeof(Mas)" render-mode="ServerPrerendered" />
+		</a>
+	}
 </div>
 <section class="carrucel-tarjeta">
 	<h1>Discography</h1>

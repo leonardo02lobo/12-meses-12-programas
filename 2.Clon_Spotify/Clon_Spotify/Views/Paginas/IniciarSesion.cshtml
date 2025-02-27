@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Usuario
+@{
 	Layout = "";
 	ViewBag.Title = "Iniciar Sesion";
 }
@@ -36,15 +37,15 @@
 			</div>
 			<div class="linea UltimaLinea" style="width: 75%; margin: 40px 0px;"></div>
 
-			<form>
+			<form asp-action="IniciarSesion" asp-controller="Paginas" method="post">
 				<label>
 					Correo electrónico o nombre de usuario
-					<input type="text" placeholder="Correo electrónico o nombre de usuario" />
+					<input type="text" placeholder="Correo electrónico" asp-for="Correo" />
 				</label>
 				<label>
 					Contraseña
 					<div class="contrasenia">
-						<input type="password" placeholder="Contraseña" id="contrasenia"/>
+						<input asp-for="Contrasenia" type="password" placeholder="Contraseña" id="contrasenia"/>
 						<div class="mirar" id="mirar">
 							<component type="typeof(MirarContraseña)" render-mode="ServerPrerendered" />
 						</div>

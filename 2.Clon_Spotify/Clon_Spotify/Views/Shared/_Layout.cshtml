@@ -1,4 +1,19 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+@inject ClonSpotifyContext DbContext
+@using System.Security.Claims
+@inject ClonSpotifyContext DbContext
+@{
+	var ImagenPerfil = User.Claims.FirstOrDefault(c => c.Type == "FotoPerfil")?.Value;
+	var IdUsuario = User.Claims.FirstOrDefault(d => d.Type == ClaimTypes.Dns)?.Value;
+	int idUsuarioInt;
+	List<Biblioteca>? listaBiblioteca = null;
+	if (int.TryParse(IdUsuario, out idUsuarioInt))
+	{
+		listaBiblioteca = DbContext.Bibliotecas.Where(c => c.Id == idUsuarioInt).ToList();
+	}
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -39,31 +54,41 @@
 							</span>
 						</div>
 						<a class="biblioteca" asp-action="Listado" asp-controller="Home">
-							<component type="typeof(Biblioteca)" render-mode="ServerPrerendered" />
+							<component type="typeof(IconBiblioteca)" render-mode="ServerPrerendered" />
 						</a>
 					</div>
 				</div>
 				<div class="Datos-Usuario">
-					@if (true)
-					{
-						<div class="gruposBotones">
-							<a asp-controller="Paginas" asp-action="CrearCuenta" class="crearCuenta">Sing Up</a>
-							<a asp-controller="Paginas" asp-action="IniciarSesion" class="inicarSesion">Login in</a>
-						</div>
-					}
-					else
-					{
-						<a class="circulo">
-							<component type="typeof(Notificaciones)" render-mode="ServerPrerendered" />
-						</a>
-						<a class="circulo">
-						</a>
+					@if(User != null && User.Identity != null){
+						@if (User.Identity.IsAuthenticated)
+						{
+							<a class="circulo">
+								<component type="typeof(Notificaciones)" render-mode="ServerPrerendered" />
+							</a>
+							<div>	
+								<a class="circulo" id="menuDesplegable">
+									<img src="@ImagenPerfil" alt="" />
+								</a>
+								<div class="cerrarsesion" id="cerrarsesion">
+									<ul>
+										<li>
+											<a asp-action="CerrarSesion" asp-controller="Paginas">Cerrar Sesion</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						}
+						else
+						{
+							<div class="gruposBotones">
+								<a asp-controller="Paginas" asp-action="CrearCuenta" class="crearCuenta">Sing Up</a>
+								<a asp-controller="Paginas" asp-action="IniciarSesion" class="inicarSesion">Login in</a>
+							</div>
+						} 
 					}
 				</div>
 			</section>
-			
 		</nav>
-
     </header>
     <section class="container">
 		<div class="play-list contenido">
@@ -113,12 +138,35 @@
 					</p>
 				</section>
 				<section class="music">
-					<a asp-action="PlayList" asp-controller="VistasParciales" class="link-playList">
-						<component type="typeof(TarjetaBiblioteclaAlbum)" render-mode="ServerPrerendered" />
-					</a>
-					<a asp-action="VerArtista" asp-controller="VistasParciales" class="link-playList">
-						<component type="typeof(TarjetaBibliotecaArtista)" render-mode="ServerPrerendered" />
-					</a>
+					@if(User != null && User.Identity != null){
+						@if(User.Identity.IsAuthenticated){
+							@if(listaBiblioteca != null){
+								@foreach (Biblioteca lista in listaBiblioteca)
+								{
+									@if (lista.Tipo == "Artista")
+									{
+										<a asp-action="VerArtista" asp-controller="VistasParciales" class="link-playList" asp-route-id="@lista.IdUsuario">
+											<component type="typeof(TarjetaBibliotecaArtista)" render-mode="ServerPrerendered" param-url="@lista.Logo" param-Artista="@lista.AlbumMusica" />
+										</a>
+									}
+									else 
+									{
+										<a asp-action="PlayList" asp-controller="VistasParciales" class="link-playList" asp-route-nombreAlbum="@lista.AlbumMusica">
+											<component type="typeof(TarjetaBiblioteclaAlbum)" render-mode="ServerPrerendered" param-nombre="@lista.AlbumMusica" param-Tipo="@lista.Tipo" param-Artista="@lista.NombreUsuario" param-url="@lista.Logo" />
+										</a>
+									}
+								}
+							}
+							
+						}else{
+							<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+								<p>Inicia Sesion</p>
+								<div class="gruposBotones">
+									<a asp-controller="Paginas" asp-action="IniciarSesion" class="inicarSesion">Login in</a>
+								</div>
+							</div>
+						}
+					}
 				</section>
 			</main>
 		</div>
@@ -171,5 +219,7 @@
 	<script src="~/Js/carrucel.js" asp-append-version="true"></script>
 	<script src="~/Js/BarraSonido.js" asp-append-version="true"></script>
 	<script src="~/Js/BotonesIndex.js" asp-append-version="true"></script>
+	<script src="~/Js/SeleccionarCancion.js" asp-append-version="true"></script>
+	<script src="~/Js/navegacion.js" asp-append-version="true"></script>
 </body>
 </html>

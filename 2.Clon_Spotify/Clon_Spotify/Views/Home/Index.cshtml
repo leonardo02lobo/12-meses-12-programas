@@ -1,8 +1,10 @@
-﻿@{
+﻿@using System.Security.Claims
+@{
     ViewBag.Title = "2.Clon_Spotify";
     List<Album> albumes = ViewBag.ListaAlbum;
     List<Usuario> usuarioArtista = ViewBag.ListaArtistas;
     List<Album> Listarandom = MusicasAleatorias(albumes);
+    var usuario = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Dns)?.Value;
 }
 @functions{
     private List<Album> MusicasAleatorias(List<Album> albums){

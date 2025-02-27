@@ -19,6 +19,8 @@ public partial class ClonSpotifyContext : DbContext
 
     public virtual DbSet<Artistum> Artista { get; set; }
 
+    public virtual DbSet<Biblioteca> Bibliotecas { get; set; }
+
     public virtual DbSet<Cancion> Cancions { get; set; }
 
     public virtual DbSet<Premium> Premia { get; set; }
@@ -74,6 +76,30 @@ public partial class ClonSpotifyContext : DbContext
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany()
                 .HasForeignKey(d => d.IdUsuario)
                 .HasConstraintName("FK_Id_Usuario");
+        });
+
+        modelBuilder.Entity<Biblioteca>(entity =>
+        {
+            entity.HasKey(e => e.BibliotecaId).HasName("PK__bibliote__E8EF3E67EFC219FA");
+
+            entity.ToTable("biblioteca");
+
+            entity.Property(e => e.AlbumMusica)
+                .HasMaxLength(200)
+                .IsUnicode(false)
+                .HasColumnName("Album_Musica");
+            entity.Property(e => e.IdUsuario).HasColumnName("Id_Usuario");
+            entity.Property(e => e.Logo)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("logo");
+            entity.Property(e => e.NombreUsuario)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("nombre_Usuario");
+            entity.Property(e => e.Tipo)
+                .HasMaxLength(50)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Cancion>(entity =>

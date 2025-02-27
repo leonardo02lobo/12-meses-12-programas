@@ -1,13 +1,19 @@
 ﻿<div class="tarjeta">
 	<p>
-		<img src="https://cdn-images.dzcdn.net/images/cover/1088ecefee3af22a2eb50f03af80a875/0x1900-000000-80-0-0.jpg" alt="portada" class="imagen imagen-artista" />
+		<img src="@url" alt="portada" class="imagen imagen-artista" />
 	</p>
 	<p class="contenido-tarjeta">
 		<span>
-			Nombre del artista
+			@Artista
 		</span>
 		<span>
 			Artist
 		</span>
 	</p>
 </div>
+@code {
+	[Parameter]
+	public string? url { get; set; } = null;
+	[Parameter]
+	public string? Artista { get; set; } = null;
+}

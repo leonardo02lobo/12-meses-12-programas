@@ -1,13 +1,23 @@
 ﻿<div class="tarjeta">
 	<p>
-		<img src="https://cdn-images.dzcdn.net/images/cover/3db1fbf7ebe1df851c3e837863e8af04/0x1900-000000-80-0-0.jpg" alt="portada" class=" imagen imagen-album" />
+		<img src="@url" alt="portada" class=" imagen imagen-album" />
 	</p>
 	<p class="contenido-tarjeta">
 		<span>
-			Nombre del album/PlayLists
+			@nombre
 		</span>
 		<span>
-			Tipo • Artista
+			@Tipo • @Artista
 		</span>
 	</p>
 </div>
+@code{
+	[Parameter]
+	public string? url { get; set; } = null;
+	[Parameter]
+	public string? nombre { get; set; } = null;
+	[Parameter]
+	public string? Tipo { get; set; } = null;
+	[Parameter]
+	public string? Artista { get; set; } = null;
+}

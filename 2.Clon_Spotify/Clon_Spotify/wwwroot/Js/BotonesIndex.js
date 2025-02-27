@@ -1,12 +1,11 @@
 ﻿const botones = document.querySelectorAll('#btn-index')
 const artistas = document.getElementById('artistas')
 
-let btnPresionado = null
-
-botones[0].style.background = 'white';
-botones[0].style.color = 'black';
+let btnPresionado = null;
 
 botones.forEach((btn, i) => {
+    botones[0].style.background = 'white';
+    botones[0].style.color = 'black';
     btn.addEventListener('click', function () {
         if (btnPresionado) {
             btnPresionado.style.background = 'rgb(42,42,42)';

@@ -1,7 +1,10 @@
 ﻿@model List<Cancion>
+@inject ClonSpotifyContext context
 @{
 	ViewBag.Title = "Nombre Artista-Cancion Sonando";
 	Usuario artista = ViewBag.Usuario;
+	var agregado = context.Bibliotecas.FirstOrDefault(m => m.AlbumMusica == Model[0].AlbumMusica);
+	bool existe = (agregado != null) ? true : false;
 }
 @functions{
 	int i = 1;
@@ -29,6 +32,15 @@
 	<section class="navegacion-lista">
 		<div class="btn-navegacion-lista">
 			<component type="typeof(PlayListas)" render-mode="ServerPrerendered" />
+				@if(existe){
+					<a asp-action="EliminarPlayList" asp-controller="PlayList" asp-route-nombreAlbum="@Model[0].AlbumMusica">
+						<component type="typeof(AgregadoPlayList)" render-mode="ServerPrerendered" />
+					</a>
+				}else{
+					<a asp-action="GuardarPlayList" asp-controller="PlayList" asp-route-nombreAlbum="@Model[0].AlbumMusica">
+						<component type="typeof(Mas)" render-mode="ServerPrerendered" />
+					</a>
+				}
 		</div>
 		<div class="tipo-listado">
 			<p>
@@ -49,14 +61,16 @@
 			<tbody>
 				@foreach(Cancion cancion in Model){
 						<tr class="cancion">
-							<td>
-								@AumentarValor()
-								<div class="play" style="display: none;">
+							<td class="numeroCancion">
+								<div class="indice">
+									@AumentarValor()
+								</div>
+								<div class="play">
 									<component type="typeof(PlaySonido)" render-mode="ServerPrerendered" />
 								</div>
 							</td>
 							<td class="musica">
-								@cancion.NombreMusica
+								<p>@cancion.NombreMusica</p>
 								<a asp-action="VerArtista" asp-controller="VistasParciales" asp-route-id="@artista.IdUsuario"> @artista.NombreUsuario</a>
 							</td>
 							<td>2:36</td>

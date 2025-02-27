@@ -1,0 +1,58 @@
+[
+  {
+    "ContainingType": "Clon_Spotify.Controllers.ApiController",
+    "Method": "getAlbum",
+    "RelativePath": "api/Api/Album",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clon_Spotify.Controllers.ApiController",
+    "Method": "getArtista",
+    "RelativePath": "api/Api/Artista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clon_Spotify.Controllers.ApiController",
+    "Method": "getBuscarArtista",
+    "RelativePath": "api/Api/Artista/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreUsuario",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clon_Spotify.Controllers.ApiController",
+    "Method": "getCancion",
+    "RelativePath": "api/Api/Cancion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Clon_Spotify.Controllers.ApiController",
+    "Method": "getUsuario",
+    "RelativePath": "api/Api/Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
