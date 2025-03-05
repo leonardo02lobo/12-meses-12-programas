@@ -48,12 +48,12 @@ export const HeaderPagina = `
             <ul>
                 <li>
                     <div class="opciones">
-                        <a href="">
+                        <a href="../view/Nofunciona.html">
                             <img width="32" height="32" src="https://img.icons8.com/pastel-glyph/32/suitcase--v4.png"
                                 alt="suitcase--v4" />
                         </a>
                         <a href="">
-                            <button>
+                            <button type="button" id="botonUsuario">
                                 <img width="24" height="24"
                                     src="https://img.icons8.com/material-rounded/24/user-male-circle.png"
                                     alt="user-male-circle" />

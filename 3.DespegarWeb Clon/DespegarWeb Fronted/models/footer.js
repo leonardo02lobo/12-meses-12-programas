@@ -54,4 +54,77 @@ export const FooterPagina = `
         </div>
         <img loading="lazy" src="//media.staticontent.com/media/pictures/d6068d49-5a7e-4b84-ba41-9f5fdfc32e4d/79x60/"
             alt="Iata" title="Iata" class="footer-image-item">
+        <div class="footerTarjetas">
+            <section class="miCuenta tarjetaFooter">
+                <h3>Mi Cuenta</h3>
+                <a href="">Mis Viajes</a>
+                <a href="">Mi Perfil</a>
+                <a href="">Eliminar mi cuenta</a>
+            </section>
+            <section class="despegar tarjetaFooter">
+                <h3>Somos Despegar</h3>
+                <a href="">FAQs</a>
+                <a href="">Relacion con inversores</a>
+            </section>
+            <section class="compras tarjetaFooter">
+                <h3>Confianza en tus compras</h3>
+                <a href="">Terminos y condiciones</a>
+                <a href="">Politica de privacidad</a>
+                <a href="">Promociones vigentes</a>
+            </section>
+            <section class="negocio tarjetaFooter">
+                <h3>Potencia tu negocio</h3>
+                <a href="">Agrega tu flota</a>
+                <a href="">Anuncia tu propiedad</a>
+                <a href="">Premium Connectivity Partner</a>
+            </section>
+            <div class="tarjetaFooter navegarLugares">
+                <h4>NAVEGAR EN EL SITIO</h4>
+                <select name="" id="" value="">
+                    <option value="Panama">Panama</option>
+                    <option value="Argetina">Argetina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Puerto Rico">Puerto Rico</option>
+                    <option value="Republica Dominicana">Republica Dominicana</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+            </div>
+            <div class="tarjetaFooter">
+                <span>
+                    <strong>Despegar esta presente en </strong>
+                    <a href="">Panama,</a>
+                    <a href="">Argentina,</a>
+                    <a href="">Bolivia,</a>
+                    <a href="">Brasil,</a>
+                    <a href="">Chile,</a>
+                    <a href="">Colombia,</a>
+                    <a href="">Costa Rica,</a>
+                    <a href="">Ecuador,</a>
+                    <a href="">El Salvador,</a>
+                    <a href="">Guatemala,</a>
+                    <a href="">Honduras,</a>
+                    <a href="">Mexico,</a>
+                    <a href="">Nicaragua,</a>
+                    <a href="">Paraguay,</a>
+                    <a href="">Peru,</a>
+                    <a href="">Puerto Rico,</a>
+                    <a href="">Republica Dominicana,</a>
+                    <a href="">Estados Unidos,</a>
+                    <a href="">Uruguay</a>
+                </span>
+            </div>
+        </div>
 ` 

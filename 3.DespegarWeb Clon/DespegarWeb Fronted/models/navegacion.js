@@ -1,18 +1,18 @@
 export const NavegacionPagina = `
-    <a id="secciones" href="../../index.html">
+    <a id="secciones">
             <img width="32" height="32" src="https://img.icons8.com/ios/32/empty-bed.png" alt="empty-bed" />
             <span>Alojamiento</span>
         </a>
-        <a id="secciones" href="./../view/vuelos.html">
+        <a id="secciones">
             <img width="32" height="32" src="https://img.icons8.com/fluency-systems-regular/32/airport.png"
                 alt="airport" />
             <span>Vuelos</span>
         </a>
-        <a id="secciones" href="./../view/alquileres.html">
+        <a id="secciones">
             <img width="32" height="32" src="https://img.icons8.com/ios/32/neighborhood.png" alt="neighborhood" />
             <span>Alquileres</span>
         </a>
-        <a id="secciones" href="./../view/autos.html">
+        <a id="secciones">
             <img width="32" height="32" src="https://img.icons8.com/ios/32/suv.png" alt="suv" />
             <span>Autos</span>
     </a>
