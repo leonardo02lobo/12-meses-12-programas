@@ -1,0 +1,6 @@
+@CarroCompraBackend_HostAddress = http://localhost:5032
+
+GET {{CarroCompraBackend_HostAddress}}/CarritoCompraContext/
+Accept: application/json
+
+###

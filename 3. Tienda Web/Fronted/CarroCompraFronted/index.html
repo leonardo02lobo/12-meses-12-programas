@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Carrito Compra</title>
+</head>
+
+<body>
+    <header class="head">
+        <nav class="nav">
+            <h1>Carrito de Compra</h1>
+            <ul>
+                <li><a href="./view/agregarProducto.html">Agregar Producto</a></li>
+                <li>
+                    <a href="./view/carrito.html" class="carrito">
+                        <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/shopping-cart--v1.png"
+                        alt="shopping-cart--v1" />
+                        <p class="cantidadProductos"></p>
+                    </a>
+                </li>
+                <li>
+                    <input type="text" placeholder="Buscar Producto" onkeydown="BuscarProductos()" id="texto">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h2>Listado de Productos</h2>
+        <div class="container">
+            <div class="productos" id="productos">
+            </div>
+            <div class="productos" id="productosBuscar">
+            </div>
+            <div class="mirar" id="mirar">
+            </div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

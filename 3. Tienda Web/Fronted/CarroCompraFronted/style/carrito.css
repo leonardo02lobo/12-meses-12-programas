@@ -1,0 +1,35 @@
+.main {
+    padding: 0px  60px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table > thead > tr > td,
+table > tbody > tr > td {
+    border: 1px solid black;
+    font-size: 25px;
+    background-color: #fae894;
+    color: #070743;
+}
+
+table > tbody > tr > td {
+    background-color: #b9cc01;
+    color: #070743;
+}
+
+.comprar {
+    text-decoration: none;
+    color: #070743;
+    transition: .3s all;
+}
+
+.comprar:hover {
+    color: #169d99;
+}

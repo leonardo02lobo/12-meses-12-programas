@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "CarroCompraBackend.Controllers.CRUDController",
+    "Method": "Create",
+    "RelativePath": "api/CRUD/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProductoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarroCompraBackend.Controllers.DatosController",
+    "Method": "GetBuscar",
+    "RelativePath": "api/Datos/Buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarroCompraBackend.Controllers.DatosController",
+    "Method": "GetProducto",
+    "RelativePath": "api/Datos/Producto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
