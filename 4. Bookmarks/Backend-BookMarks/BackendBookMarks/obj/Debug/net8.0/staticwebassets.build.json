@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vxKtT2b9menD9OcIE0170QajTEqNzbd1HfMeax7ztvI=",
+  "Source": "BackendBookMarks",
+  "BasePath": "_content/BackendBookMarks",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

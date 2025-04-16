@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+    --color-negro: #000000;
+    --color-grisOscuro: #272727;
+    --color-grisClaro: #4e4e4e;
+    --color-grisOpaco: #747474;
+    --color-grisLetras: #9b9b9b;
+}

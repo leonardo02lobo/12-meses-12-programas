@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    display: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#crearCuenta, #iniciarSesion {
+    display: none;
+    flex-direction: column;
+    padding: 100px;
+    > form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        > label {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}

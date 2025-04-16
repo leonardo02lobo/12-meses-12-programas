@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import {GetCategories} from "./../services/DataCategories"
+import {type Category} from "./../Models/Category"
+import CardCategories from "../components/Card/CardCategories.astro";
+import type { BookMark } from "../Models/BookMarks";
+import { GetBookMarks } from "../services/DataBookMarks";
+import CardBookMark from "../components/Card/CardBookMark.astro";
+
+const categories: Category[] = await GetCategories();
+const bookmark: BookMark[] = await GetBookMarks();
+---
+
+<Layout Title="Buscar">
+    <div class="flex flex-row gap-4">
+        <label id="grupoBotones" class="text-white underline hover:text-white transition-all flex flex-row gap-5">
+            Todos
+        </label>
+        {
+            categories.map(element => (
+                <CardCategories name={element.name}/>
+            ))
+        }
+    </div>
+    <div class="grid grid-cols-2 gap-4 mt-10" id="categories">
+        {
+            bookmark.map(element =>(
+                <CardBookMark bookMark={element} />
+            ))
+        }
+    </div>
+</Layout>

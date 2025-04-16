@@ -1,0 +1,58 @@
+---
+import CardProject from "./Card/CardProject.astro";
+import IconGithub from "./Icon/IconGithub.astro";
+import {ObtenerDatos} from "./../script/datos"
+import type { project } from "../models/projectModel";
+
+const datos: project[] = ObtenerDatos()
+---
+
+<div class="flex flex-col justify-center items-center">
+    <div class="flex flex-row relative mt-20">
+        <h1 class="text-5xl font-bold">
+            <span class="text-gray-500"
+                ><p class="text-7xl text-gray-700">12</p> Meses</span
+            >
+            <span class="text-gray-500"
+                ><p class="text-7xl text-gray-700">12</p> Proyectos</span
+            >
+        </h1>
+        <img
+            src="CSharp.png"
+            alt="C#"
+            class="w-40 rotate-12 absolute left-[70%]"
+        />
+    </div>
+    <div
+        class="ml-56 mr-56 mt-20 font-mono [&>p>strong]:bg-blue-300 [&>p>strong]:font-normal [&>p>strong]:p-0.5"
+    >
+        <p class="text-3xl">
+            Soy <strong>Leonardo Lobo</strong>, Este Proyecto Se tiene la
+            finalidad de poder mejorar mis habilidades como programador
+            <strong>para la Industria del Desarrollo de Software</strong>
+        </p>
+        <footer class="mt-5 flex flex-row">
+            <a
+                href="https://github.com/leonardo02lobo"
+                target="_blank"
+                class="flex flex-row gap-2 p-3 border-2 border-gray-900 rounded-2xl shadow-2xl shadow-black"
+                ><IconGithub /> Revisa Mi Github</a
+            >
+        </footer>
+    </div>
+    <div class="grid grid-cols-3 mt-20 ml-56 mr-56 gap-5">
+        {
+            datos.map((element: project) => (
+                <CardProject
+                    name={element.name}
+                    Description={element.Description}
+                    UrlImage={element.UrlImage}
+                    TecnologiaFronted={element.TecnologiaFronted}
+                    TecnologiaBackend={element.TecnologiaBackend}
+                    UrlGitHub={element.UrlGitHub}
+                />
+                
+            ))
+        }
+    </div>
+</div>

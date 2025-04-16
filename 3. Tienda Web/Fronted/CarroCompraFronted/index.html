@@ -17,26 +17,41 @@
                 <li>
                     <a href="./view/carrito.html" class="carrito">
                         <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/shopping-cart--v1.png"
-                        alt="shopping-cart--v1" />
+                            alt="shopping-cart--v1" />
                         <p class="cantidadProductos"></p>
                     </a>
                 </li>
                 <li>
                     <input type="text" placeholder="Buscar Producto" onkeydown="BuscarProductos()" id="texto">
                 </li>
+                <li>
+                    <div class="cuentas" id="sesionIniciada">
+                        <a href="" class="usuario">
+                            <img width="30" height="30" src="https://img.icons8.com/ios/30/user--v1.png" alt="user--v1"/>
+                        </a>
+                        <a id="cerrarSesion">Cerrar Sesion</a>
+                    </div>
+                    <div class="cuentas" id="cuentas">
+                        <a id="cuentasRegistro">Iniciar Sesion</a>
+                        <a id="cuentasRegistro">Crear Cuenta</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <h2>Listado de Productos</h2>
-        <div class="container">
-            <div class="productos" id="productos">
-            </div>
-            <div class="productos" id="productosBuscar">
+        <div class="mainContainer">
+            <div class="container">
+                <div class="productos" id="productos">
+                </div>
+                <div class="productos" id="productosBuscar">
+                </div>
             </div>
             <div class="mirar" id="mirar">
             </div>
         </div>
+
     </main>
     <script src="./js/main.js"></script>
 </body>

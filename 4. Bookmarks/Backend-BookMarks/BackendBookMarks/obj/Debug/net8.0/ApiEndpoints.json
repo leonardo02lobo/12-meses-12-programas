@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "BackendBookMarks.Controllers.BookMarkController",
+    "Method": "GetByCategories",
+    "RelativePath": "api/BookMark/FindByCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendBookMarks.Controllers.BookMarkController",
+    "Method": "GeTBookMarkID",
+    "RelativePath": "api/BookMark/FindId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendBookMarks.Controllers.BookMarkController",
+    "Method": "GetFindBookMark",
+    "RelativePath": "api/BookMark/FindSearchBookMark",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendBookMarks.Controllers.BookMarkController",
+    "Method": "GetBookMark",
+    "RelativePath": "api/BookMark/GetBookMarks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendBookMarks.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories/GetCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

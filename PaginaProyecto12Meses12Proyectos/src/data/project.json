@@ -1,0 +1,51 @@
+[
+    {
+        "name": "API Juegos",
+        "Description": "Un comienzo con C# en el lado de la Web",
+        "UrlImage": "https://i.postimg.cc/mrYpjP8p/Screenshot-2025-01-21-232201.png",
+        "TecnologiaFronted": [
+            "HTML",
+            "CSS",
+            "BOOTSTRAP"
+        ],
+        "TecnologiaBackend":[
+            "C#",
+            "ORM",
+            "ASP.NET"
+        ],
+        "UrlGitHub": "https://github.com/leonardo02lobo/12-meses-12-programas/tree/main/1.API_JUEGOS"
+    },
+    {
+        "name": "Clon Spotify",
+        "Description": "Pequeño proyecto basado en spotify con las funcionalidades basicas (no se pudo terminar)",
+        "UrlImage": "https://i.postimg.cc/mrYpjP8p/Screenshot-2025-01-21-232201.png",
+        "TecnologiaFronted": [
+            "HTML",
+            "CSS",
+            "BOOTSTRAP",
+            "JAVASCRIPT"
+        ],
+        "TecnologiaBackend":[
+            "C#",
+            "ORM",
+            "ASP.NET"
+        ],
+        "UrlGitHub": "https://github.com/leonardo02lobo/12-meses-12-programas/tree/main/2.Clon_Spotify"
+    },
+    {
+        "name": "Carrito De Compra",
+        "Description": "Primer Proyecto desarrollado con Backend y Frontend separados",
+        "UrlImage": "https://i.postimg.cc/mrYpjP8p/Screenshot-2025-01-21-232201.png",
+        "TecnologiaFronted": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT"
+        ],
+        "TecnologiaBackend":[
+            "C#",
+            "ORM",
+            "ASP.NET"
+        ],
+        "UrlGitHub": "https://github.com/leonardo02lobo/12-meses-12-programas/tree/main/3.%20Tienda%20Web"
+    }
+]

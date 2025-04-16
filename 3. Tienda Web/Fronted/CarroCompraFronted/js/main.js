@@ -1,10 +1,28 @@
 const div = document.getElementById('productos')
 const divbuscar = document.getElementById('productosBuscar')
 const mirar = document.getElementById('mirar')
+const container = document.querySelector('.container')
 const agregar = document.querySelector('.cantidadProductos')
+const resgistro = document.querySelectorAll('#cuentasRegistro')
+const sesionIniciada = document.getElementById('sesionIniciada')
+const cuentas = document.getElementById('cuentas')
+const cerrarSesion = document.getElementById('cerrarSesion')
 
 let productos
 let cantidadProductos = 0
+
+function DeterminarInicioSesion(){
+    const datos = localStorage.getItem('InicioSesion')
+    if(datos){
+        sesionIniciada.style.display = 'flex'
+        cuentas.style.display = 'none'
+    }
+
+    cerrarSesion.addEventListener('click', () => {
+        localStorage.removeItem('InicioSesion')
+        window.location.reload()
+    })
+}
 
 function pintarTarjetas(response) {
     response.forEach(element => {
@@ -21,6 +39,9 @@ function pintarTarjetas(response) {
 
     productos.forEach(element => {
         element.addEventListener('click', () => {
+            if(window.screen.width <= 500){
+                container.style.display = 'none'
+            }
             mirar.style.display = 'flex'
             mirar.innerHTML = `
                 <img class="imagen" src="${element.childNodes[1].currentSrc}" alt="imagen">
@@ -142,4 +163,15 @@ function volverPintar() {
     divbuscar.style.display = 'none'
 }
 
+function AdministradorCuenta(){
+    resgistro.forEach((elem) => {
+        elem.addEventListener('click', () => {
+            elem.href = "./view/AgregarUsuario.html"
+            sessionStorage.setItem("datoRegistro",elem.innerText)
+        })
+    })
+    
+}
+AdministradorCuenta()
 iniciarCarrito()
+DeterminarInicioSesion()

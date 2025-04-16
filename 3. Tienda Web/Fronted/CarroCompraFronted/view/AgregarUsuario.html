@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style/AgregarUsuario.css">
+    <title>Iniciar Sesion</title>
+</head>
+<body>
+    <main class="main">
+        <section id="iniciarSesion" class="section">
+            <h1>Iniciar Sesion</h1>
+            <form method="post" id="IniciarSesionFrom">
+                <label for="usuario">
+                    Digite su nombre de usuario
+                    <input type="text" name="usuario" id="usuario">
+                </label>
+                <label for="contrasenia">
+                    Digite su contraseña de acceso
+                    <input type="text" name="contrasenia" id="contrasenia">
+                </label>
+                <button type="submit">Ingresar</button>
+                <span id="registrarse">No tienes cuenta <a>Registrarte</a></span>
+            </form>       
+        </section>
+        <section id="crearCuenta" class="section">
+            <h1>Crear Cuenta</h1>   
+            <form method="post" id="datos">
+                <label for="usuario">
+                    Ingresar Usuario
+                    <input type="text" name="usuario" id="usuario">
+                </label>
+                <label for="contrasenia">
+                    Ingresar la contraseña
+                    <input type="text" name="contrasenia" id="contrasenia">
+                </label>
+                <button type="submit">Ingresar</button>
+                <span id="iniciarsesion">Tienes cuenta <a>Inicia Sesion</a></span>
+            </form>              
+        </section>
+    </main>
+    <script src="./../js/AgregarUsuario.js"></script>
+</body>
+</html>

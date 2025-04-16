@@ -1,0 +1,22 @@
+---
+import CardBookMark from "../components/Card/CardBookMark.astro";
+import Layout from "../layouts/Layout.astro";
+import type { BookMark } from "../Models/BookMarks";
+import { GetBookMarks } from "../services/DataBookMarks";
+
+const bookmarks: BookMark[] = await GetBookMarks();
+---
+
+<Layout Title="BookMarks Web-Home" transition:name="hero">
+	<div class="grid grid-cols-2 gap-4">
+		{
+			bookmarks.length > 0 ? (
+			bookmarks.map((element: BookMark) => (
+                <CardBookMark bookMark={element} />
+            ))
+			):(
+				<span>No existen Publicaciones <a href="CrearBookMark">Crea un BookMark</a></span>
+			)
+		}
+	</div>
+</Layout>
