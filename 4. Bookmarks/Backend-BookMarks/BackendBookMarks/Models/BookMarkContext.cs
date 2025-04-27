@@ -35,7 +35,7 @@ public partial class BookMarkContext : DbContext
 
             entity.ToTable("BOOKMARKS");
 
-            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id").HasAnnotation("SqlServer:Identity", "1, 1");
             entity.Property(e => e.CreatedAt).HasColumnType("datetime");
             entity.Property(e => e.Description)
                 .HasMaxLength(200)

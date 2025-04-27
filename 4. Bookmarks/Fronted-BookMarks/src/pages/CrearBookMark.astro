@@ -1,7 +1,43 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import type { Category } from "../Models/Category";
+import { GetCategories } from "../services/DataCategories";
+const categories: Category[] = await GetCategories();
 ---
 
-<Layout Title="Buscar">
-    <h1>Esta es mi pagina para Crear un nuevo BookMarks</h1>
+<Layout Title="Crear BookMark">
+    <form method="post" class="flex flex-col gap-4 bg-gray-900 p-4 rounded-lg shadow-2xl shadow-gray-700 mt-5" id="formBookMark">
+        <label for="Title" class="text-white flex flex-col gap-2">
+            Ingrese el nombre del BookMark:
+            <input type="text" name="Title" id="Title" class="text-white border-2 border-white rounded-2xl" required />
+        </label>
+        <label for="Url" class="text-white flex flex-col gap-2">
+            Ingrese la URL del BookMark:
+            <input type="url" name="Url" id="Url" class="text-white border-2 border-white rounded-2x" required />
+        </label>
+        <label for="Description" class="text-white flex flex-col gap-2">
+            Ingrese la Descripcion del BookMark:
+            <input type="text" name="Description" id="Description" class="text-white border-2 border-white rounded-2xl" required />
+        </label>
+        <label for="Category" class="text-white flex flex-col gap-2">
+            Ingrese la Categoria del BookMark:
+            <select name="category" id="category" class="text-white border-2 border-white rounded-2xl">
+                {
+                    categories.map((category) => {
+                        return (
+                            <option value={category.id} class="text-black">
+                                {category.name}
+                            </option>
+                        );
+                    })
+                }
+            </select>
+        </label>
+        <label for="CreatedAt" class="text-white flex flex-col gap-2">
+            Ingrese la fecha de creacion del BookMark:
+            <input type="date" name="CreatedAt" id="CreatedAt" class="text-white border-2 border-white rounded-2xl" required />
+        </label>
+        <button id="publicar" class="rounded-2xl bg-blue-600 hover:bg-blue-700 transition-all p-4 text-2xl">Publicar BookMark</button>
+    </form>
 </Layout>
+<script src="./../script/js/ValidarDatosCreateBookMark.js"></script>

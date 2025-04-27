@@ -22,3 +22,18 @@ export async function GetBookMarksByID(id: number){
         return null;
     }
 }
+
+export async function AddBokMark(bookmark: BookMark){
+    try {
+        const response = await fetch("http://localhost:5299/api/BookMark/AddBookMark", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(bookmark)
+        })
+        return response;
+    } catch (error) {
+        console.log((error as Error).message)
+    }
+}

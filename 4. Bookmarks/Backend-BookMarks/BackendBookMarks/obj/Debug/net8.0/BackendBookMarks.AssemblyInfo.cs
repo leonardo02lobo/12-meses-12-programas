@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendBookMarks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01dcbb1f285a4187e7c05ddabc76610169da25d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc83287ce8a47152b3f449792a56e8b0ad52b74")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendBookMarks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendBookMarks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

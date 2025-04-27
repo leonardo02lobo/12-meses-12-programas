@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Crear Categoria">
+    <form method="post" class="flex flex-col gap-4 bg-gray-900 p-4 rounded-lg shadow-2xl shadow-gray-700 mt-5" id="formCategory">
+        <h1 class="text-3xl p-4 text-center">Agregar una nueva Categoria</h1>
+        <label for="Name" class="text-white flex flex-col gap-2">
+            Ingrese el nombre de la Categoria:
+            <input type="text" name="Name" id="Name" class="text-white border-2 border-white rounded-2xl" required />
+        </label>
+        <button class="rounded-2xl bg-blue-600 hover:bg-blue-700 transition-all p-4 text-2xl">Agregar Categoria</button>
+    </form>
+</Layout>
+<script src="./../script/js/ValidarDatosCrearCategoria.js"></script>

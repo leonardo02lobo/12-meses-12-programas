@@ -36,3 +36,18 @@ export async function FindCategories(name: string): Promise<Category[]> {
         return [];
     }
 }
+
+export async function AddCategory(category: Category){
+    try {
+        const response = await fetch('http://localhost:5299/api/Categories/AddCategory',{
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(category)
+        })
+        return response
+    } catch (error) {
+        console.log((error as Error).message)
+    }
+}

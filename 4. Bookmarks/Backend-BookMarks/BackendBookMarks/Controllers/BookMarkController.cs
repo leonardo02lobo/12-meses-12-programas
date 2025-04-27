@@ -33,7 +33,7 @@ namespace BackendBookMarks.Controllers
                     CategoryName = category.Name,
                     bookmark.CreatedAt
                 });
-            if(bookMarkWithCategories == null)
+            if (bookMarkWithCategories == null)
             {
                 return NotFound();
             }
@@ -44,7 +44,7 @@ namespace BackendBookMarks.Controllers
         [Route("FindSearchBookMark")]
         public IActionResult GetFindBookMark(string Title)
         {
-            if(Title == null || Title == "")
+            if (Title == null || Title == "")
             {
                 return NotFound();
             }
@@ -67,7 +67,7 @@ namespace BackendBookMarks.Controllers
         [Route("FindId")]
         public IActionResult GeTBookMarkID(int id)
         {
-            if(id == 0)
+            if (id == 0)
             {
                 return NotFound();
             }
@@ -82,7 +82,7 @@ namespace BackendBookMarks.Controllers
                     bookmark.Description,
                     CategoryName = category.Name,
                     bookmark.CreatedAt
-                }).First( n => n.Id == id);
+                }).First(n => n.Id == id);
             return Ok(bookMark);
         }
 
@@ -110,9 +110,33 @@ namespace BackendBookMarks.Controllers
                     bookmark.CreatedAt
                 }).Where(n => n.CategoryName == categories).ToList();
                 return Ok(bookmark);
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
-                return StatusCode(500,$"{e.Message}");
+                return StatusCode(500, $"{e.Message}");
+            }
+        }
+
+        [HttpPost]
+        [Route("AddBookMark")]
+        public async Task<IActionResult> CreateBookMark([FromBody] Bookmark bookmark)
+        {
+            try
+            {
+                if (bookmark == null || string.IsNullOrEmpty(bookmark.Title))
+                {
+                    return BadRequest(new { mensaje = "Datos no válidos" });
+                }
+                _bookMark.Bookmarks.Add(bookmark);
+                await _bookMark.SaveChangesAsync();
+
+                return Ok(new { mensaje = "Datos recibidos correctamente", id = bookmark.Id });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException?.Message ?? ex.Message);
+
+                return StatusCode(500, new { mensaje = "Ocurrió un error interno", error = ex.InnerException?.Message ?? ex.Message });
             }
         }
     }

@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "BackendBookMarks.Controllers.BookMarkController",
+    "Method": "CreateBookMark",
+    "RelativePath": "api/BookMark/AddBookMark",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookmark",
+        "Type": "BackendBookMarks.Models.Bookmark",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendBookMarks.Controllers.BookMarkController",
     "Method": "GetByCategories",
     "RelativePath": "api/BookMark/FindByCategory",
     "HttpMethod": "GET",
