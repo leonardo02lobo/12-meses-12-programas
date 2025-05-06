@@ -1,0 +1,17 @@
+---
+import FooterChat from "../components/chat/FooterChat.astro";
+import HeaderChat from "../components/chat/HeaderChat.astro";
+import Chats from "../components/Chats.astro";
+import Layout from "../Layout/Layout.astro";
+---
+
+<Layout Title="main">
+	<main class="grid grid-cols-5 bg-gray-900">
+		<Chats/>
+		<div class="col-span-3 relative">
+			<HeaderChat/>
+			<div class="bg-gray-900 h-full"></div>
+			<FooterChat/>
+		</div>
+	</main>
+</Layout>

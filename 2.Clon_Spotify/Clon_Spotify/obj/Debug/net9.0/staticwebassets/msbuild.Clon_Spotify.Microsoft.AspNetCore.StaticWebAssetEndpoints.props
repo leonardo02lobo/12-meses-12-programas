@@ -48,17 +48,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hk7sr32jfa"},{"Name":"integrity","Value":"sha256-ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI="},{"Name":"label","Value":"_content/Clon_Spotify/Css/Index.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3554"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ryPE7cggqp2i7xruvrotNzXL6kWqnmaGTORNVpEXBiI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 00:43:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/Navegacion.278m7yzr0i.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Navegacion.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"278m7yzr0i"},{"Name":"integrity","Value":"sha256-Ag6LddDMJEH/0/GlUroL246jEISCetp\u002BS0IFVKEz3ac="},{"Name":"label","Value":"_content/Clon_Spotify/Css/Navegacion.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3609"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ag6LddDMJEH/0/GlUroL246jEISCetp\u002BS0IFVKEz3ac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:41:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/Navegacion.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Navegacion.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7MJ5ix1wxCU0nG2a/oZ1P8Qd830a/MNaXFkP87NiTZc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3363"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227MJ5ix1wxCU0nG2a/oZ1P8Qd830a/MNaXFkP87NiTZc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:12:29 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/Navegacion.ot46p7flpl.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\Navegacion.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ot46p7flpl"},{"Name":"integrity","Value":"sha256-7MJ5ix1wxCU0nG2a/oZ1P8Qd830a/MNaXFkP87NiTZc="},{"Name":"label","Value":"_content/Clon_Spotify/Css/Navegacion.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3363"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227MJ5ix1wxCU0nG2a/oZ1P8Qd830a/MNaXFkP87NiTZc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:12:29 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ag6LddDMJEH/0/GlUroL246jEISCetp\u002BS0IFVKEz3ac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3609"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ag6LddDMJEH/0/GlUroL246jEISCetp\u002BS0IFVKEz3ac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:41:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Css/PlayList.bardc0qoye.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Css\PlayList.css'))</AssetFile>
@@ -155,6 +155,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"626"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022tmxGvizaMeyKFat0t8e3WHwoJdna5iVopVDL8QSF7jw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 18:16:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Js/navegacion.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\navegacion.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CkfL9YOV2najpiatcuc66v3jiUwJswR9j953vIglxd4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CkfL9YOV2najpiatcuc66v3jiUwJswR9j953vIglxd4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:40:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Js/navegacion.y9l9dq9yws.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\navegacion.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y9l9dq9yws"},{"Name":"integrity","Value":"sha256-CkfL9YOV2najpiatcuc66v3jiUwJswR9j953vIglxd4="},{"Name":"label","Value":"_content/Clon_Spotify/Js/navegacion.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022CkfL9YOV2najpiatcuc66v3jiUwJswR9j953vIglxd4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 23:40:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Clon_Spotify/Js/SeleccionarCancion.98ffv4gef7.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Js\SeleccionarCancion.js'))</AssetFile>

@@ -5,7 +5,6 @@
         "UrlImage": "https://i.postimg.cc/mrYpjP8p/Screenshot-2025-01-21-232201.png",
         "TecnologiaFronted": [
             "HTML",
-            "CSS",
             "BOOTSTRAP"
         ],
         "TecnologiaBackend":[
@@ -18,10 +17,9 @@
     {
         "name": "Clon Spotify",
         "Description": "Pequeño proyecto basado en spotify con las funcionalidades basicas (no se pudo terminar)",
-        "UrlImage": "https://i.postimg.cc/mrYpjP8p/Screenshot-2025-01-21-232201.png",
+        "UrlImage": "https://i.postimg.cc/BQr6htZZ/Screenshot-2025-05-01-211101.png",
         "TecnologiaFronted": [
             "HTML",
-            "CSS",
             "BOOTSTRAP",
             "JAVASCRIPT"
         ],
@@ -35,7 +33,7 @@
     {
         "name": "Carrito De Compra",
         "Description": "Primer Proyecto desarrollado con Backend y Frontend separados",
-        "UrlImage": "https://i.postimg.cc/mrYpjP8p/Screenshot-2025-01-21-232201.png",
+        "UrlImage": "https://i.postimg.cc/9F7XqVd6/Screenshot-2025-05-01-211411.png",
         "TecnologiaFronted": [
             "HTML",
             "CSS",
@@ -47,5 +45,21 @@
             "ASP.NET"
         ],
         "UrlGitHub": "https://github.com/leonardo02lobo/12-meses-12-programas/tree/main/3.%20Tienda%20Web"
+    },
+    {
+        "name": "CRUD de BookMark",
+        "Description": "Un proyecto sencillo pero partiendo con Astro para el frontend",
+        "UrlImage": "https://i.postimg.cc/G2td313S/Screenshot-2025-05-01-211723.png",
+        "TecnologiaFronted": [
+            "Astro",
+            "Tailwind",
+            "TypeScript"
+        ],
+        "TecnologiaBackend":[
+            "C#",
+            "ORM",
+            "ASP.NET"
+        ],
+        "UrlGitHub": "https://github.com/leonardo02lobo/12-meses-12-programas/tree/main/4.%20Bookmarks"
     }
 ]

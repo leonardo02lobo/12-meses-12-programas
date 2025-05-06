@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\Js\\carrucel.js"
     },
     {
+      "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\Js\\navegacion.js",
+      "PackagePath": "staticwebassets\\Js\\navegacion.js"
+    },
+    {
       "Id": "C:\\Users\\equipo\\Documents\\Lenguajes de Programacion\\12 meses 12 programas\\2.Clon_Spotify\\Clon_Spotify\\wwwroot\\spotify.ico",
       "PackagePath": "staticwebassets\\spotify.ico"
     },

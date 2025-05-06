@@ -1,6 +1,7 @@
 ---
 import IconGithub from "../Icon/IconGithub.astro";
 export interface Props {
+    i: number;
     name: string;
     Description: string;
     UrlImage: string;
@@ -8,11 +9,11 @@ export interface Props {
     TecnologiaBackend: string[];
     UrlGitHub: string;
 }
-const {name,Description,UrlImage,TecnologiaFronted,TecnologiaBackend,UrlGitHub} = Astro.props
+const {name,Description,UrlImage,TecnologiaFronted,TecnologiaBackend,UrlGitHub,i} = Astro.props
 ---
 
-<div class="flex flex-col gap-3 p-2 relative">
-    <p class="absolute font-bold text-3xl -rotate-45">#1</p>
+<div class="flex flex-col gap-3 p-2 relative overflow-hidden">
+    <p class="absolute font-bold text-3xl -rotate-45">#{i}</p>
     <img src={UrlImage} alt="ImagenProyecto" class="w-80 rounded-2xl h-50">
     <h2 class="text-4xl font-bold">{name}</h2>
     <span>{Description}</span>

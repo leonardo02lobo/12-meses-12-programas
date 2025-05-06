@@ -1,0 +1,15 @@
+---
+import CardChat from "./chat/CardChat.astro";
+import Search from "./icons/Search.astro";
+---
+
+<div class="col-span-2 p-4 w-full h-screen">
+    <h1 class="text-3xl text-white p-3 font-bold">Chats</h1>
+    <div class="hover:bg-gray-700 bg-gray-600 flex flex-row gap-2 p-3 cursor-pointer">
+        <Search/>
+        <input type="text" placeholder="Search or start a new chat" class="h-full w-full outline-none text-white">
+    </div>
+    <div class="mt-4">
+        <CardChat/>
+    </div>
+</div>

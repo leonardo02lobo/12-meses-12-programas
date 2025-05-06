@@ -75,6 +75,22 @@
   },
   {
     "ContainingType": "BackendBookMarks.Controllers.CategoriesController",
+    "Method": "AddCategory",
+    "RelativePath": "api/Categories/AddCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "BackendBookMarks.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackendBookMarks.Controllers.CategoriesController",
     "Method": "GetCategories",
     "RelativePath": "api/Categories/GetCategories",
     "HttpMethod": "GET",

@@ -40,10 +40,11 @@ const datos: project[] = ObtenerDatos()
             >
         </footer>
     </div>
-    <div class="grid grid-cols-3 mt-20 ml-56 mr-56 gap-5">
+    <div class="sm:grid sm:grid-cols-3 sm:mt-20 sm:ml-56 sm:mr-56 sm:gap-5 flex flex-col gap-4">
         {
-            datos.map((element: project) => (
+            datos.map((element: project,i: number) => (
                 <CardProject
+                    i={(i+1)}
                     name={element.name}
                     Description={element.Description}
                     UrlImage={element.UrlImage}

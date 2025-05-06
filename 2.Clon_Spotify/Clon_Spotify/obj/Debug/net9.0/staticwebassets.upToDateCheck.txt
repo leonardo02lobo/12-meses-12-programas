@@ -9,6 +9,7 @@ C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\wwwroot\Css\Navegacion.css
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\wwwroot\spotify.ico
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\wwwroot\Js\BarraSonido.js
+C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\wwwroot\Js\navegacion.js
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\wwwroot\Js\CrearCuenta.js
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\wwwroot\Js\IniciarSesion.js
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\wwwroot\Js\SeleccionarCancion.js
@@ -26,5 +27,6 @@ wwwroot\Js\BotonesIndex.js
 wwwroot\Js\carrucel.js
 wwwroot\Js\CrearCuenta.js
 wwwroot\Js\IniciarSesion.js
+wwwroot\Js\navegacion.js
 wwwroot\Js\SeleccionarCancion.js
 wwwroot\spotify.ico

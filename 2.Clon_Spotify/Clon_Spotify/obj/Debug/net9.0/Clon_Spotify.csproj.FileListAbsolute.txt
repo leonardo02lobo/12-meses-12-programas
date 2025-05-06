@@ -179,4 +179,5 @@ C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\obj\Debug\net9.0\compressed\zrtci9wbvm-bardc0qoye.gz
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\obj\Debug\net9.0\compressed\yxrkxs5m8h-98ffv4gef7.gz
 C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\obj\Debug\net9.0\compressed\4mz4t01109-6k1frlm4c6.gz
-C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\obj\Debug\net9.0\compressed\rr0f3ba739-ot46p7flpl.gz
+C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\obj\Debug\net9.0\compressed\rr0f3ba739-278m7yzr0i.gz
+C:\Users\equipo\Documents\Lenguajes de Programacion\12 meses 12 programas\2.Clon_Spotify\Clon_Spotify\obj\Debug\net9.0\compressed\vw8kr71ruz-y9l9dq9yws.gz
