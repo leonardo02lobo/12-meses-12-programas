@@ -1,0 +1,29 @@
+---
+import RegisterLayout from "../Layout/RegisterLayout.astro";
+---
+
+<RegisterLayout Title="Register User">
+    <main
+        class="flex w-full h-screen box-border bg-background justify-center items-center"
+    >
+        <div
+            class="bg-backgroundComponents flex flex-col justify-center p-4 rounded-2xl text-center gap-5"
+        >
+            <div>
+                <span class="text-4xl font-bold">Register User</span>
+                <p class="text-2xl font-bold">register to continue</p>
+            </div>
+            <form action="" class="flex flex-col justify-center items-center gap-4">
+                <label for="name" class="flex flex-col gap-2 text-2xl font-bold justify-center items-start">
+                    UserName
+                    <input type="text" id="name" placeholder="UserName" class="text-letter outline-2 outline-shades rounded-2xl p-2" />
+                </label>
+                <label for="password" class="flex flex-col gap-2 text-2xl font-bold justify-center items-start">
+                    Password
+                    <input type="text" id="passsword" placeholder="Password" class="text-letter outline-2 outline-shades rounded-2xl p-2" />
+                </label>
+                <button type="submit" class="px-4 py-2 bg-shadesLetter text-background font-bold rounded-2xl cursor-pointer">Register</button>
+            </form>
+        </div>
+    </main>
+</RegisterLayout>
